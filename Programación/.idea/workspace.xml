@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Ejercicio_1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Programación.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Programación.iml" afterDir="false" />
+    <list default="true" id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="Ejercicios">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/AdiosMundo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Inicial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/MisDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/MuestraFecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Numeros2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Ejercicio_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Saludo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EyZyP2NICXJxLvMqsSPZLKBFBN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programación",
     "settings.editor.selected.configurable": "copyright"
@@ -48,7 +57,7 @@
       <recent name="C:\Users\maraloed\Documents\GitHub\Grado_SuperiorDAM\Programación\2º Evalñuación" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Nombre_Apellidos">
     <configuration name="Ejercicio_1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicios.Ejercicio_1_1" />
       <module name="Programación" />
@@ -62,9 +71,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicios.Numeros2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicios.Numeros2" />
+      <module name="Programación" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MisDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicios.MisDatos" />
+      <module name="Programación" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nombre_Apellidos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicios.Nombre_Apellidos" />
+      <module name="Programación" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Numeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicios.Numeros" />
+      <module name="Programación" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio_1_1" />
+        <item itemvalue="Application.Nombre_Apellidos" />
+        <item itemvalue="Application.Ejercicios.Numeros2" />
+        <item itemvalue="Application.Nombre_Apellidos.Numeros" />
+        <item itemvalue="Application.Nombre_Apellidos.MisDatos" />
+        <item itemvalue="Application.Ejercicios.Ejercicio_1_1" />
       </list>
     </recent_temporary>
   </component>
@@ -77,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663570039120</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ejercicios">
+      <created>1663584473575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663584473575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios" />
   </component>
 </project>
