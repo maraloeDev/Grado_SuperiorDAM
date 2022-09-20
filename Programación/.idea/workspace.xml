@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="Ejercicios" />
+=======
+    <list default="true" id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="Ejercicios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programación",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programación&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maraloed\Documents\GitHub\Grado_SuperiorDAM\Programación" />
@@ -117,9 +123,6 @@
       <list>
         <item itemvalue="Application.Nombre_Apellidos" />
         <item itemvalue="Application.Ejercicios.Numeros2" />
-        <item itemvalue="Application.Nombre_Apellidos.Numeros" />
-        <item itemvalue="Application.Nombre_Apellidos.MisDatos" />
-        <item itemvalue="Application.Ejercicios.Ejercicio_1_1" />
       </list>
     </recent_temporary>
   </component>
