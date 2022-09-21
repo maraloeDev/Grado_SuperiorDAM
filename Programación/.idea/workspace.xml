@@ -1,155 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="Ejercicios" />
-=======
-    <list default="true" id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="Ejercicios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="47390bf2-d306-4713-8558-9be409b31715" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Programación.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/Copy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/AdiosMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Inicial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/MisDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/MuestraFecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Nombre_Apellidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Numeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Numeros2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º Evaluación/Ejercicios/Saludo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/AdiosMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/Inicial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/MisDatos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/MuestraFecha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/Nombre_Apellidos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/Numeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/Numeros2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programación/Ejercicios/Saludo.class" beforeDir="false" />
     </list>
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2EyZyP2NICXJxLvMqsSPZLKBFBN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2F2dnMDa5aRnExCyy0q5wd3Z6yu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programación&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/marti/OneDrive/Grado_SuperiorDAM/Programación"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maraloed\Documents\GitHub\Grado_SuperiorDAM\Programación" />
-      <recent name="C:\Users\maraloed\Documents\GitHub\Grado_SuperiorDAM\Programación\2º Evalñuación" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Nombre_Apellidos">
-    <configuration name="Ejercicio_1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicios.Ejercicio_1_1" />
-      <module name="Programación" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicios.Numeros2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicios.Numeros2" />
-      <module name="Programación" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MisDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicios.MisDatos" />
-      <module name="Programación" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Nombre_Apellidos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicios.Nombre_Apellidos" />
-      <module name="Programación" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Numeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicios.Numeros" />
-      <module name="Programación" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Nombre_Apellidos" />
-        <item itemvalue="Application.Ejercicios.Numeros2" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="782cd93c-5909-4483-84fe-3d73cb997009" name="Changes" comment="" />
-      <created>1663570039120</created>
+      <changelist id="47390bf2-d306-4713-8558-9be409b31715" name="Changes" comment="" />
+      <created>1663694286069</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663570039120</updated>
+      <updated>1663694286069</updated>
     </task>
-    <task id="LOCAL-00001" summary="Ejercicios">
-      <created>1663584473575</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663584473575</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Ejercicios">
-      <created>1663587106773</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663587106773</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,9 +69,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios" />
   </component>
 </project>
