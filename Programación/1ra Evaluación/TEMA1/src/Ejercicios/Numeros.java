@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (C) EDUARDO MARTIÍN-SONSECA (maraloeDev)
+ * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
 package Ejercicios;
