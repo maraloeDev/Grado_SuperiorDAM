@@ -10,10 +10,11 @@ public class NombreApellidos {
 
         String a ="Mi ";
         String b = " Nombre ";
-        String c = "Pepe ";
-        String d = "Soplillo";
-        String e = ".";
-        System.out.println(a + b + c + d + e);
+        String c  =" es ";
+        String d = "Pepe ";
+        String e = "Soplillo";
+        String f = ".";
+        System.out.println(a + b + c + d + e + f);
         System.out.println("--------------------------------------------------------------------");
         System.out.println("Mi "+ " nombre " + " es " + " Pepe " + " Soplillo " + ".");
     }
