@@ -12,6 +12,11 @@ public class Tipos_Datos {
         //Declaramos de diferentes tipos
 
         //Variables para almacenar caracteres
-        char = 
+        char  letra;
+        char Inicial = 'E';
+
+        //Variables para almacenar numeros enteros
+        int edad = 18;
+        int altura;
     }
 }
