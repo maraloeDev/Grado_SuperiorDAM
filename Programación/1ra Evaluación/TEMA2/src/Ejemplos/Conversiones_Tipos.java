@@ -6,7 +6,7 @@ package Ejemplos;
 
 public class Conversiones_Tipos {
 
-    //En generasr es posible almacenar valores de un tipo inferior a un tipo superior
+    //En general es posible almacenar valores de un tipo inferior a un tipo superior
     //El problema viene cuando quiero hacer lo contrario, Solución:
 
     //Casting (convertir de un tipo a otro
@@ -25,5 +25,14 @@ public class Conversiones_Tipos {
         short suma = (short) (num1 + num2); //Fuerzo con el casting
         suma = (short) (suma * 2);
         System.out.println("La suma es : " + suma);
+        
+        //Otra prueba de tipos diferentes enteros
+
+        long num3 =100;
+        long num4 = 200;
+        long resultado = num3 * num4; //int -> long
+        //Se ha promocionado la operación a long
+        
+        System.out.println("El producto es " + resultado);
     }
 }
