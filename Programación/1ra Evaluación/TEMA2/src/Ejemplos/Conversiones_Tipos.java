@@ -39,7 +39,13 @@ public class Conversiones_Tipos {
 
         double f =(float) 1.0; //Estoy intentando meter 8 bytes en 4, Solución CASTING
 
-        
+        //Pruebas con valores Booleanos
+        boolean seguir;
+         seguir = (2>1); //1º Se hace la comparación, true 2º Se almacena en la variable
+
+
+
+
 
     }
 }

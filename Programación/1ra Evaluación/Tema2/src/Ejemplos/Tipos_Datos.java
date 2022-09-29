@@ -12,8 +12,10 @@ public class Tipos_Datos {
         //Declaramos de diferentes tipos
 
         //Variables para almacenar caracteres
-        char letra ='p';
-        char inicial = 'E';
+
+        //Si se pone un número es el codigo ASSCII
+        char letra =0;
+        char inicial = 'M';
 
         System.out.println(inicial);
         System.out.println(letra);
@@ -42,6 +44,11 @@ public class Tipos_Datos {
         System.out.println(seguir);
         System.out.println(open);
         System.out.println(close);
+
+        //Declaramos constantes (SIEMPRE EN MAYÚSCULAS)
+
+        final double PI=3.14;
+
 
 
     }
