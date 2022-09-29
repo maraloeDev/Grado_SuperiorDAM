@@ -12,7 +12,7 @@ public class Entrada_Teclado {
 
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in); //Creamos el objeto Scanner
+        Scanner teclado = new Scanner(System.in); //Creamos el objeto Scanner SOLO UNA VEZ y lo usamos las veces necesarias
 
         System.out.println("Dime tu edad ");
         int edad = teclado.nextInt();
