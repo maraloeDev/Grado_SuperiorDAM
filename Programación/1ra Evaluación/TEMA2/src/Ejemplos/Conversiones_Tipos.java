@@ -34,5 +34,12 @@ public class Conversiones_Tipos {
         //Se ha promocionado la operación a long
         
         System.out.println("El producto es " + resultado);
+
+        //Pruebas con números reales (con parte decimal)
+
+        double f =(float) 1.0; //Estoy intentando meter 8 bytes en 4, Solución CASTING
+
+        
+
     }
 }
