@@ -42,8 +42,6 @@ public class Tipos_Datos {
         System.out.println(seguir);
         System.out.println(open);
         System.out.println(close);
-        long l2= 30000000000L;
-        long l1= 20000000000L;
 
 
     }
