@@ -18,6 +18,11 @@ public class Ejercicio_3_Calculo {
         System.out.println("Introduce un  numero");
         int numero2 = teclado.nextInt();
 
+        //HACER CON OPERADOR TERNARIO
+
+
+        //HACER CON SWITCH
+
         System.out.println("\tSUMA " + (numero1 + numero2));
         System.out.println("\tRESTA " + (numero1 - numero2));
         System.out.println("\tMULTIPLICACION " + (numero1 * numero2));
