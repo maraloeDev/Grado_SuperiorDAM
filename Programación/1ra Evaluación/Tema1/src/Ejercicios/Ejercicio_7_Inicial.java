@@ -4,11 +4,12 @@
 
 package Ejercicios;
 
-public class Numeros2 {
+public class Ejercicio_7_Inicial {
 
     public static void main(String[] args) {
-
-        System.out.println("1\n 2\n  3\n   4\n    5\n");
+        System.out.println("***");
+        System.out.println("**");
+        System.out.println("***");
     }
 
 }

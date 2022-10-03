@@ -4,7 +4,7 @@
 
 package Ejercicios;
 
-public class NombreApellidos {
+public class Ejercicio_8_NombreApellidos {
 
     public static void main(String[] args) {
 

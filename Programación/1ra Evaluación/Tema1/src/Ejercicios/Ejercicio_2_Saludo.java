@@ -4,12 +4,9 @@
 
 package Ejercicios;
 
-public class Inicial {
+public class Ejercicio_2_Saludo {
 
     public static void main(String[] args) {
-        System.out.println("***");
-        System.out.println("**");
-        System.out.println("***");
+        System.out.println("Me llamo Eduardo");
     }
-
 }

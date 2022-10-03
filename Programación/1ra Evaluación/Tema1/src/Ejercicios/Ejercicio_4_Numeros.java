@@ -4,14 +4,14 @@
 
 package Ejercicios;
 
-public class MisDatos {
+public class Ejercicio_4_Numeros {
 
     public static void main(String[] args) {
-        System.out.println("Nombre: Eduardo");
-        System.out.println("Apellidos: Martín-Sonseca");
-        System.out.println("Direccion : Calle la Malaza, 40");
-        System.out.println("Telefono: 601094161");
-
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+        System.out.println("4");
+        System.out.println("5");
     }
 
 }

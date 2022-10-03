@@ -4,9 +4,15 @@
 
 package Ejercicios;
 
-public class Saludo {
+import java.util.Date;
+
+public class Ejercicio_6_MuestraFecha {
+
+    static Date hoy = new Date();
 
     public static void main(String[] args) {
-        System.out.println("Me llamo Eduardo");
+        System.out.print("Fecha y hora de hoy es : ");
+        System.out.println(hoy);
     }
+
 }

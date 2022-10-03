@@ -4,15 +4,10 @@
 
 package Ejercicios;
 
-import java.util.Date;
-
-public class MuestraFecha {
-
-    static Date hoy = new Date();
+public class Ejercicio_1_AdiosMundo {
 
     public static void main(String[] args) {
-        System.out.print("Fecha y hora de hoy es : ");
-        System.out.println(hoy);
+        System.out.println("Adios Mundo Cruel!!!");
     }
 
 }
