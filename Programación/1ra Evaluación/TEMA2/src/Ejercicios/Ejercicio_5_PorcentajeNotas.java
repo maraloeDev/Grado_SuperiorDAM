@@ -5,6 +5,7 @@
 package Ejercicios;
 
 import java.util.Scanner;
+import java.util.SortedMap;
 
 public class Ejercicio_5_PorcentajeNotas {
 
@@ -13,24 +14,40 @@ public class Ejercicio_5_PorcentajeNotas {
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Introduce un numero entero correspondiente al numero de sobresalientes :");
-        int n1 = teclado.nextInt();
+        int sobreSalientes = teclado.nextInt();
 
         System.out.print("Introduce un numero entero correspondiente al numero de notables :");
-        int n2 = teclado.nextInt();
+        int notables = teclado.nextInt();
 
         System.out.print("Introduce un numero entero correspondiente al numero de aprobados :");
-        int n3 = teclado.nextInt();
+        int aprobados = teclado.nextInt();
 
         System.out.print("Introduce un numero entero correspondiente al numero de suspensos :");
-        int n4 = teclado.nextInt();
+        int suspensos = teclado.nextInt();
 
         System.out.print("Introduce un numero entero correspondiente al numero de no presentados :");
-        int n5 = teclado.nextInt();
+        int noPresentados = teclado.nextInt();
+        System.out.println("--------------------------------------------------------------------------");
 
-        System.out.print("El numero total de alumnos es de: " + (n1+n2+n3+n4+n5) + " alumnos");
+        int alumnos = (sobreSalientes + notables + aprobados + suspensos + noPresentados);
 
+        System.out.print("El numero total de alumnos es de: " + alumnos + " alumnos");
 
+        System.out.println("--------------------RELULTADOS-------------------- ");
 
-
+        System.out.println("SB=" + sobreSalientes + "(" + (sobreSalientes * 100) / alumnos + "%)");
+        System.out.println("N=" + notables + "(" + (notables * 100) / alumnos + "%)");
+        System.out.println("A=" + aprobados + "(" + (aprobados * 100) / alumnos + "%)");
+        System.out.println("S=" + suspensos + "(" + (suspensos * 100) / alumnos + "%)");
+        System.out.println("NP=" + noPresentados + "(" + (noPresentados * 100) / alumnos + "%)");
+        System.out.println("Total=" + alumnos + "(" + alumnos * 100 + "%)");
+        System.out.println("Total presentados=" +
+                (sobreSalientes + notables + aprobados + suspensos + notables) / alumnos * 100 + "%)");
+        System.out.println("Total aprobados=" +
+                "(" + (sobreSalientes + notables + aprobados) * 100 / (alumnos - noPresentados) + "%)");
+        System.out.println("Total suspensos=" +
+                "(" + (sobreSalientes + notables + aprobados) * 100 / (alumnos - suspensos) + "%)");
+        System.out.println("Total no presentados=" +
+                "(" + (noPresentados * 100) / (alumnos - noPresentados) + "%)");
     }
 }
