@@ -14,9 +14,9 @@ public class Ejercicio_7_Minutos {
 
         System.out.println("Introduce un numero de segundos ");
         int segundos = teclado.nextInt();
-        int min = 60;
-        int intercambio = (segundos/min);
+        int intercambio = (segundos / 60);
+        int intercambio2 = (segundos % 60);
 
-        System.out.println(segundos + " s = " + min + " m " + intercambio + " s");
+        System.out.println(segundos + " s = " + intercambio + " m " + intercambio2 + " s");
     }
 }
