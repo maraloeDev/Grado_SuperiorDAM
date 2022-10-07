@@ -7,7 +7,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_10_Pascua {
+public class Ejercicio__10_Pascua {
 
     public static void main(String[] args) {
 
