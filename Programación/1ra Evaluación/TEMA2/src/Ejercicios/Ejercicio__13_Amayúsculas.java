@@ -14,27 +14,11 @@ public class Ejercicio__13_Amayúsculas {
 
         System.out.println("Introduze un caracter en  minusculas del alfabeto de la a a la z : ");
 
-        char alfabeto = teclado.next().charAt(0);
+        char caracter = teclado.next().charAt(0);
+        
+        String eleccion = (caracter >= 97) && (caracter <= 122) ? "El caracter " + caracter + " esta en minusculas" :
+                          (caracter >= 65) && (caracter <= 90)  ? "El caracter " + caracter + " esta en mayusculas" : "Esta fuera de rango";
 
-        char eleccion =
-        (alfabeto == 'a') ? 'A' :
-        (alfabeto == 'b') ? 'B' :
-        (alfabeto == 'c') ? 'C' :
-        (alfabeto == 'd') ? 'D' :
-        (alfabeto == 'E') ? 'E' : '0';
-
-        String minEsta =
-        (alfabeto == 'a') ? "esta en minusculas" :
-        (alfabeto == 'b') ? "esta en minusculas" :
-        (alfabeto == 'c') ? "esta en minusculas" :
-        (alfabeto == 'd') ? "esta en minusculas" :
-        (alfabeto == 'E') ? "esta en minusculas" : "No esta en minusculas";
-        System.out.println();
-        System.out.println("El Caracter  " + alfabeto + " en mayusculas es " + eleccion);
-
-        System.out.println();
-        System.out.println();
-
-        System.out.println("El caracter que has intoducido " + minEsta);
+        System.out.println(eleccion);
     }
 }
