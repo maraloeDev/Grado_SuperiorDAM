@@ -6,6 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/1ra Evaluación" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1ra Evaluación/Tema3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/1ra Evaluación/Tema3/nbproject/private" />
+      <excludeFolder url="file://$MODULE_DIR$/1ra Evaluación/Tema3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/1ra Evaluación/Tema3/dist" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
