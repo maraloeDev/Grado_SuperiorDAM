@@ -2,7 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package src.Ejemplos;
+package Ejemplos;
 
 public class EjemploAleatorios {
 
