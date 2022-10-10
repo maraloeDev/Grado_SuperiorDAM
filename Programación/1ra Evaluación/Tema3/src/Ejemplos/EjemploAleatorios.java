@@ -2,7 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package src.Ejemplos;
+package Ejemplos;
 
 public class EjemploAleatorios {
 
@@ -27,8 +27,11 @@ public class EjemploAleatorios {
 
         //Generar aleatorios entre 18 y 60
 
-        int aleatorio = (int) (18 * Math.random() + 42);
-        System.out.println(aleatorio);
+        while (true){
+
+            int aleatorio = (int) (18 + Math.random() * 42);
+            System.out.println(aleatorio);
+        }
 
 
     }
