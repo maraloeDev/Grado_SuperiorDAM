@@ -2,7 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package ifelse;
+package Tema3.src.EjerciciosPropuestos.Ejercicio_1_SentenciaIfElse;
 
 import java.util.Scanner;
 
