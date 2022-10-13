@@ -11,5 +11,17 @@ public class Pares {
 
     public static void main(String[] args) {
 
+        int resultado = 0;
+        int i;
+
+        for ( i = 0; i <= 100 ; i++) {
+            if (i % 2 == 0 ){
+                System.out.println(i);
+            }
+            resultado++;
+
+        }
+            System.out.println("La suma de todos los numeros pares es de :" + (resultado + i) );
+
     }
 }
