@@ -11,33 +11,24 @@ public class Ejercicio_2_Binario {
     static  Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Escribe 3 numeros binarios");
 
-        int b2 = teclado.nextInt();
-        if (b2 !=0 && b2!=1){
-            System.out.println("No has introducido un numero binario");
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Introduce bit 2");
+        int bit2 = teclado.nextInt();
+
+        System.out.println("Introduce bit 1");
+        int bit1 = teclado.nextInt();
+
+        System.out.println("Introduce bit0 ");
+        int bit0 = teclado.nextInt();
+
+        if (bit2 != 0 && bit2 != 1 || bit1 != 0 && bit1 != 1 || bit0 != 0 && bit0 != 1) {
+            System.out.println("El numero es Incorrecto");
+        } else {
+            int resultado = (bit2 + 2 * bit1 + bit0 + bit0 * 1);
+            System.out.println("El resultado decimal es: " + resultado);
         }
-        System.out.println("-------------------");
-
-        int b1 = teclado.nextInt();
-        if (b1 !=0 && b1!=1){
-            System.out.println("No has introducido un numero binario");
-        }
-        System.out.println("-------------------");
-
-        int b0 = teclado.nextInt();
-        if (b0 !=0 && b0!=1){
-            System.out.println("No has introducido un numero binario");
-        }
-
-        if (b0 > b1 && b0 > b2){
-            System.out.println("La suma es de " + (b2 + b1 + b0));
-        }
-
-
-
-
-
+    }
 
     }
-}
