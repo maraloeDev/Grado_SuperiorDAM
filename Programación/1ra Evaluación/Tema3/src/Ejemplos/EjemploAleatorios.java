@@ -29,7 +29,7 @@ public class EjemploAleatorios {
 
         while (true){
 
-            int aleatorio = (int) (18  * Math.random() + 42);
+            int aleatorio = (int) (17 + Math.random() * 42) ;
             System.out.println(aleatorio);
         }
 
