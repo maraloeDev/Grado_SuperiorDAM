@@ -1,1 +1,0 @@
-Tema3.src.EjerciciosPropuestos.Ejercicio_3_SentenciaBucleFor_Pares
