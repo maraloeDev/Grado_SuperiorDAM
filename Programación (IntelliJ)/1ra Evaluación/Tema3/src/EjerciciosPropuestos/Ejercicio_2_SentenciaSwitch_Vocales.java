@@ -3,11 +3,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Switch;
+package Tema3.src.EjerciciosPropuestos;
 
 import java.util.Scanner;
 
-public class Vocales {
+public class Ejercicio_2_SentenciaSwitch_Vocales {
 
     //Hacer un programa llamado Vocales que reciba por teclado un carácter y
     //muestre por pantalla si se trata de una vocal o no. Hacer el programa con

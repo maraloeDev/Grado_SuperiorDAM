@@ -2,11 +2,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Tema3.src.EjerciciosPropuestos.Ejercicio_1_SentenciaIfElse;
+package Tema3.src.EjerciciosPropuestos;
 
 import java.util.Scanner;
 
-public class Divisible {
+public class Ejercicio_1_SentenciaIfElse_Divisible {
 
     //Hacer un programa llamado Divisible que reciba por teclado dos números y
 //compruebe si el primero es divisible por el segundo.

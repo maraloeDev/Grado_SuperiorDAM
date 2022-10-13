@@ -2,7 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Switch;
+package Tema3.src.EjerciciosPropuestos;
 
         //Hacer un programa llamado Notas que lea por teclado un entero
         //correspondiente a la nota de un examen y muestre por pantalla a qué
@@ -10,7 +10,7 @@ package Switch;
 
 import java.util.Scanner;
 
-public class Notas {
+public class Ejercicio_2_SentenciaSwitch_Notas {
 
     public static void main(String[] args) {
 

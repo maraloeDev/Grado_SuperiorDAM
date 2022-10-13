@@ -2,11 +2,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Tema3.src.EjerciciosPropuestos.Ejercicio_1_SentenciaIfElse;
+package Tema3.src.EjerciciosPropuestos;
 
 import java.util.Scanner;
 
-public class SignoNumero {
+public class Ejercicio_1_SentenciaIfElse_SignoNumero {
 
 
     // Hacer un programa llamado SignoNumero que reciba por teclado un número real
