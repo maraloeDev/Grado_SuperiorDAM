@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Ejercicio_2_Binario {
 
-    static  Scanner teclado = new Scanner(System.in);
+    static Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -31,4 +31,4 @@ public class Ejercicio_2_Binario {
         }
     }
 
-    }
+}
