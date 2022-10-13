@@ -2,9 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Tema3.src.Ejercicios;
-
-import com.sun.source.tree.WhileLoopTree;
+package Ejercicios;
 
 public class Ejercicio_4_OperacionesAritmeticas {
 
