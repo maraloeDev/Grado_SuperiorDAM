@@ -15,13 +15,13 @@ public class Ejercicio_2_Binario {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Introduce bit 2");
-        int bit2 = teclado.nextInt();
+        char bit2 = teclado.next().charAt(0);
 
         System.out.println("Introduce bit 1");
-        int bit1 = teclado.nextInt();
+        char bit1 = teclado.next().charAt(0);
 
         System.out.println("Introduce bit0 ");
-        int bit0 = teclado.nextInt();
+        char bit0 = teclado.next().charAt(0);
 
         if (bit2 != 0 && bit2 != 1 || bit1 != 0 && bit1 != 1 || bit0 != 0 && bit0 != 1) {
             System.out.println("El numero es Incorrecto");
