@@ -6,7 +6,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_3_MiNota {
+public class Ejercicio_3_Seleccion_MiNota {
 
     public static void main(String[] args) {
 

@@ -19,15 +19,15 @@ public class Ejercicio_2_SentenciaSwitch_Vocales {
 
         System.out.println("Introduce un caracter");
 
-        char caract = teclado.next().charAt(0);
+        char caract = teclado.next().toLowerCase().charAt(0);
 
         switch (caract) {
 
-            case 'a', 'A':
-            case 'e', 'E':
-            case 'i', 'I':
-            case 'o', 'O':
-            case 'u', 'U':
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
                 System.out.println("Has introducido una vocal");
                 break;
             default:

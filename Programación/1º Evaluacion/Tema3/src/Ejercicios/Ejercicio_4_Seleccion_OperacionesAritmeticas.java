@@ -4,7 +4,7 @@
 
 package Ejercicios;
 
-public class Ejercicio_4_OperacionesAritmeticas {
+public class Ejercicio_4_Seleccion_OperacionesAritmeticas {
 
     public static void main(String[] args) {
 

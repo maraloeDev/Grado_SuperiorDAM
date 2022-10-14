@@ -5,7 +5,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_5_EcuacionCuadratica {
+public class Ejercicio_5_Seleccion_EcuacionCuadratica {
 
     public static void main(String[] args) {
 
