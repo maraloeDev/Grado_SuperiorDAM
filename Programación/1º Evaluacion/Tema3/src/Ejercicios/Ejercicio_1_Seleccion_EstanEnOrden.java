@@ -6,7 +6,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_1_EstanEnOrden {
+public class Ejercicio_1_Seleccion_EstanEnOrden {
 
     public static void main(String[] args) {
 

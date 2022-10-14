@@ -5,7 +5,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_2_Binario {
+public class Ejercicio_2_Seleccion_Binario {
 
     static Scanner teclado = new Scanner(System.in);
 
