@@ -1,4 +1,3 @@
-
 /*******************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
@@ -22,46 +21,14 @@ public class Ejercicio_2_SentenciaSwitch_Vocales {
 
         char caract = teclado.next().charAt(0);
 
-        /*********************** IF - ELSE /************************/
+        switch (caract) {
 
-        //if (caract == 'a') {
-        //    System.out.println(caract + " es una vocal");
-        //} else if (caract == 'e') {
-        //    System.out.println(caract + " es una vocal");
-//
-        //} else if (caract == 'i') {
-//
-        //    System.out.println(caract + " es una vocal");
-//
-        //} else if (caract == 'o') {
-//
-        //    System.out.println(caract + " es una vocal");
-//
-        //} else if (caract == 'u') {
-//
-        //    System.out.println(caract + " es una vocal");
-        //} else {
-        //    System.out.println(caract + " NO es una vocal");
-        //}
-
-        /*********************** SWITCH /************************/
-
-        switch (caract){
-
-            case 'a' :
-                System.out.println(caract + " es una vocal");
-                break;
-            case 'e' :
-                System.out.println(caract + " es una vocal");
-                break;
-            case 'i' :
-                System.out.println(caract + " es una vocal");
-                break;
-            case 'o' :
-                System.out.println(caract + " es una vocal");
-                break;
-            case 'u' :
-                System.out.println(caract + " es una vocal");
+            case 'a', 'A':
+            case 'e', 'E':
+            case 'i', 'I':
+            case 'o', 'O':
+            case 'u', 'U':
+                System.out.println("Has introducido una vocal");
                 break;
             default:
                 System.out.println("No es una vocal");
