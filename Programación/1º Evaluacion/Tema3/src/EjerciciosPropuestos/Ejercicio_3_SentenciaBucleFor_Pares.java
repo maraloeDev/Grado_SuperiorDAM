@@ -2,7 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Tema3.src.EjerciciosPropuestos;
+package EjerciciosPropuestos;
 
 public class Ejercicio_3_SentenciaBucleFor_Pares {
 

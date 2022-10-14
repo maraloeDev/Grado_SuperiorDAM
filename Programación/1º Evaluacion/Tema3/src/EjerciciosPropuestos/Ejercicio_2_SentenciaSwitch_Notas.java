@@ -2,7 +2,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Tema3.src.EjerciciosPropuestos;
+package EjerciciosPropuestos;
 
         //Hacer un programa llamado Notas que lea por teclado un entero
         //correspondiente a la nota de un examen y muestre por pantalla a qué
@@ -23,7 +23,7 @@ public class Ejercicio_2_SentenciaSwitch_Notas {
             case 0 :
             case 1 :
             case 2 :
-                System.out.println("MD");
+                System.out.println("Myu Deficiente");
                 break;
 
             case 3 :
