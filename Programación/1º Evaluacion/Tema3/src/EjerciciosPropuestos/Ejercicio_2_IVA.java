@@ -3,7 +3,7 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  * ****************************************************************************
  */
-package Ejercicios;
+package EjerciciosPropuestos;
 
 import java.util.Scanner;
 
