@@ -1,6 +1,8 @@
-/** *****************************************************************************
+/**
+ * ****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ***************************************************************************** */
+ * ****************************************************************************
+ */
 package Ejercicios;
 
 import java.util.Scanner;
@@ -9,8 +11,9 @@ public class Ejercicio__13_A_Mayúsculas {
 
     public static void main(String[] args) {
 
-        // Realizar un programa Java que solicite al usuario un carácter en minúsculas
-        //del alfabeto [a-z]. Y a continuación mostrar el mismo carácter pero en mayúsculas.
+        /** Realizar un programa Java que solicite al usuario un carácter en minúsculas
+         //del alfabeto [a-z]. Y a continuación mostrar el mismo carácter pero en mayúsculas. */
+
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Introduze un caracter en  minusculas del alfabeto de la a a la z : ");
