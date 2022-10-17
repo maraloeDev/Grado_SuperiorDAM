@@ -20,7 +20,7 @@ public class Bucles4 {
 
         System.out.println("Introduce un numero : ");
         int num = teclado.nextInt();
-        int cont = 0;
+
 
 
 
