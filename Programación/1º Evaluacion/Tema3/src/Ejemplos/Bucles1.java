@@ -15,9 +15,9 @@ public class Bucles1 {
         //muestra 30 veces hola.
         int cont = 1;
 
-        while (cont <= 30) {
+        while (cont < 10) {
 
-            System.out.println(cont + " " + " hola");
+            System.out.println(cont + "  Hola");
             cont++;
         }
     }
