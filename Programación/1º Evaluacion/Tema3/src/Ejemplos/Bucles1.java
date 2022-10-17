@@ -5,7 +5,6 @@
  */
 package Ejemplos;
 
-import java.util.Scanner;
 
 public class Bucles1 {
 
