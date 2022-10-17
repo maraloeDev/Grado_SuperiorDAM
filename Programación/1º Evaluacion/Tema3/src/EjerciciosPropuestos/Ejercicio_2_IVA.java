@@ -28,11 +28,14 @@ public class Ejercicio_2_IVA {
 
 
         System.out.println("Introduce una cantidad en euros ");
-        double bi = teclado.nextDouble();
+        double cantidad = teclado.nextDouble();
 
-        double G = (bi * 0.21);
-        double R = (bi * 0.10);
-        double S = (bi * 0.04);
+        double G = (cantidad / 1.21);
+        double R = (cantidad / 0.10);
+        double S = (cantidad / 0.04);
+        double ivaG = (cantidad - G);
+        double ivaR = (cantidad - R);
+        double ivaS = (cantidad - S);
 
         System.out.println("--------------");
 
@@ -45,16 +48,16 @@ public class Ejercicio_2_IVA {
         switch (eleccion) {
 
             case "G", "g":
-                System.out.println("BI : " + bi + "\n"
-                        + "IVA : " + G);
+                System.out.println("BI : " + G + "\n"
+                        + "IVA : " + ivaG);
                 break;
             case "R", "r":
-                System.out.println("BI : " + bi + "\n"
-                        + "IVA : " + R);
+                System.out.println("BI : " + R + "\n"
+                        + "IVA : " + ivaR);
                 break;
             case "S", "s":
-                System.out.println("BI : " + bi + "\n"
-                        + "IVA : " + S);
+                System.out.println("BI : " + S + "\n"
+                        + "IVA : " + ivaS);
                 break;
             default:
                 System.out.println("Numero no contenplado ");
