@@ -34,7 +34,7 @@ public class Bucles4__Pares {
 
         while (contador < num) {
 
-            System.out.println(contador);
+            System.out.print(contador + ", ");
             contador=contador+1;
             contador++;
 
