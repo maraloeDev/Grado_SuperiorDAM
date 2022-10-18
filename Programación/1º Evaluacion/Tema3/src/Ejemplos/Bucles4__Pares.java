@@ -26,8 +26,8 @@ public class Bucles4__Pares {
         if (num < 0 ){
             System.out.println("NO SE PUEDE");
         } else {
-        int contadorPares=0;
         int contador = 0;
+        int contadorPares=0;
         int suma=0;
 
         while (contador < num) {
