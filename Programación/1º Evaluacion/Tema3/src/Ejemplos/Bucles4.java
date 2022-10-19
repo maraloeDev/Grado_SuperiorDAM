@@ -6,7 +6,7 @@ package Ejemplos;
 
 import java.util.Scanner;
 
-public class Bucles4__Pares {
+public class Bucles4 {
 
     /**
      * Programa que muestre. cuente. sume los pares que hay entre 1 y un numero positivo
@@ -42,6 +42,7 @@ public class Bucles4__Pares {
             contadorPares++;
 
         }
+        System.out.println();
         System.out.println("Hay " + contadorPares + " pares");
         System.out.println("Suman " + suma);
         }
