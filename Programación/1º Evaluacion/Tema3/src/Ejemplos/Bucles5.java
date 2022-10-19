@@ -26,30 +26,27 @@ public class Bucles5 {
 
         Scanner teclado = new Scanner(System.in);
 
-        String respuesta = "S";
-        int numero=0;
+        char respuesta = 'S';
         int contador = 0;
-
-        while (respuesta == "S"){
-
-            System.out.println("Introduce un numero");
-            numero = teclado.nextInt();
+        while (respuesta == 'S'){
+            System.out.print("Introduce un numero ");
+            int numero = teclado.nextInt();
             contador++;
 
-            System.out.println("¿Quieres continuar? (S / N)");
-            respuesta = teclado.next();
+            if (respuesta == 'S' || respuesta == 's'){
 
-            if (respuesta == "N") {
+                System.out.print("¿Quieres continuar? (S/N) ");
+                respuesta = teclado.next().charAt(0);
 
-                System.out.println("Has introducido " + contador + " numeros");
-            } else {
-                System.out.println("Salida inesperada");
             }
 
         }
+            System.out.println("Has introducido " + contador + " numeros");
 
 
     }
 
+
 }
+
 

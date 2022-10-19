@@ -5,7 +5,7 @@
 package Ejemplos;
 
 import java.util.Scanner;
-
+@SuppressWarnings("ALL")
 public class Bucles6 {
 
     /** Programa que pida al usuario su estado civil
@@ -17,7 +17,7 @@ public class Bucles6 {
      *
      * Si el usuario introduce un valor no contenplado el programa mostrara un mensaje informativo y volvera a realizar la pregunta
      *
-     * Ejemplpo
+     * Ejemplo
      *
      * Estado civil : (S/C/D/V) g
      * Entrada incorrecta
@@ -28,21 +28,18 @@ public class Bucles6 {
      * Casado
      *
      */
+
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Estado civil" +
-                "\nS" +
-                "\nC" +
-                "\nD" +
-                "\nV");
-char estadoC=teclado.next().charAt(0);
+        System.out.println("Estado civil : (S/C/D/V)");
+        char estadoC=teclado.next().charAt(0);
 
 
         while (estadoC != 'S' && estadoC != 'C' && estadoC != 'D' && estadoC != 'V'){
             System.out.println("Entrada incorrecta");
-            System.out.println("Estado Civil");
+            System.out.println("Estado civil : (S/C/D/V)");
             estadoC = teclado.next().charAt(0);
         }
 
@@ -61,8 +58,10 @@ char estadoC=teclado.next().charAt(0);
 
             case 'V', 'v' :
                 System.out.println("Viudo");
-            break;
+                break;
         }
 
     }
-}
+
+
+    }
