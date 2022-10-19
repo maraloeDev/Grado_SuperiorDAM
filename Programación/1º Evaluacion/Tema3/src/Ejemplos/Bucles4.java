@@ -12,7 +12,7 @@ public class Bucles4 {
      * Programa que muestre. cuente. sume los pares que hay entre 1 y un numero positivo
      * // introducido por teclado
      * //  Introduce valor : 10
-     * //  2 4 6 8 10
+     * //  0 2 4 6 8 10
      * //
      * //  Hay : 5 pares
      * //
@@ -34,7 +34,7 @@ public class Bucles4 {
 
         while (contador < num) {
 
-            System.out.print(contador + ", ");
+            System.out.println(contador);
             contador=contador+1;
             contador++;
 
@@ -42,7 +42,6 @@ public class Bucles4 {
             contadorPares++;
 
         }
-        System.out.println();
         System.out.println("Hay " + contadorPares + " pares");
         System.out.println("Suman " + suma);
         }
