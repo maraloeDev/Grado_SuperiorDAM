@@ -5,7 +5,7 @@
 package Ejemplos;
 
 import java.util.Scanner;
-
+@SuppressWarnings("ALL")
 public class Ejemplo_Banderas2 {
 
     /**
@@ -17,14 +17,27 @@ public class Ejemplo_Banderas2 {
      *
      *
      * Ejercicio
-     * Programa que pida al usuario repetidamente números hasta que introduzca 0
+     * Programa que pida al usuario repetidamente números hasta que introduzca cero
      * Para cada número introducido, tendra que decir si es par o impar
      */
 
     public static void main(String[] args) {
 
+        Scanner teclado = new Scanner(System.in);
 
+        System.out.println("Introduce un numero");
+        int numero = teclado.nextInt();
+        int contador=0;
 
+        while (numero != 0){
+            System.out.println("Introduce un numero");
+            numero= teclado.nextInt();
+contador++;
+        }
+            if ((numero%2)==0){
+                System.out.println("Es par");
+            }
+        System.out.println("Has acabado");
     }
 
 
