@@ -7,12 +7,12 @@ package Ejercicios;
 public class Ejercicio_2_Iteraccion_TablaASCII {
 
     public static void main(String[] args) {
-        int carac = 128;
+        int carac = 255;
         int minimo = 0;
 
-        while (carac > minimo){
+        while (carac >= minimo){
 
-            System.out.println(carac);
+            System.out.println(carac + " " + (char)carac);
             carac--;
         }
     }
