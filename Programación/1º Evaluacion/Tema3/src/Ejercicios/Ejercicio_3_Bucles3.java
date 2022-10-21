@@ -1,13 +1,11 @@
-/**
- * ****************************************************************************
+/*******************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- * ****************************************************************************
- */
-package Ejemplos;
+ ******************************************************************************/
+package Ejercicios;
 
 import java.util.Scanner;
 
-public class Bucles3 {
+public class Ejercicio_3_Bucles3 {
 
     //Numeros naturares entre 2 valores introducidos por teclado
 

@@ -2,11 +2,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejemplos;
+package Ejercicios;
 
 import java.util.Scanner;
 
-public class Bucles7 {
+public class Ejercicio_7_Bucles7 {
 
     /**
      * Programa que pida al usuario dos enteros que tal forma que el segundo sea mayor que el primero

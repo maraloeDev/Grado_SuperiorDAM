@@ -2,11 +2,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejemplos;
+package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejemplo_Banderas {
+public class Ejercicio_8_Banderas {
 
     /**
      * Una bandera es una variable booleana que ouede tener dos posibles valores

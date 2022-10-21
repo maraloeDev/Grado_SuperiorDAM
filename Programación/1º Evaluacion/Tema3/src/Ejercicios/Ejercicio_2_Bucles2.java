@@ -1,11 +1,9 @@
-/** *****************************************************************************
+/*******************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ***************************************************************************** */
-package Ejemplos;
+ ******************************************************************************/
+package Ejercicios;
 
-import java.util.Scanner;
-
-public class Bucles2 {
+public class Ejercicio_2_Bucles2 {
 
     //Mostrar numeros naturales entre 0 y 100
     public static void main(String[] args) {

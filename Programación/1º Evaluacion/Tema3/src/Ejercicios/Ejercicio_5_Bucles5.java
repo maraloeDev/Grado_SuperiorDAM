@@ -1,11 +1,11 @@
-/** *****************************************************************************
+/*******************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ***************************************************************************** */
-package Ejemplos;
+ ******************************************************************************/
+package Ejercicios;
 
 import java.util.Scanner;
 
-public class Bucles5 {
+public class Ejercicio_5_Bucles5 {
 
     /**
      * NUMEROS Programa que pida al usuario enteros repetidamente, hasta que

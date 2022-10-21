@@ -2,11 +2,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejemplos;
+package Ejercicios;
 
 import java.util.Scanner;
 @SuppressWarnings("ALL")
-public class Bucles6 {
+public class Ejercicio_5_Bucles6 {
 
     /** Programa que pida al usuario su estado civil
      *

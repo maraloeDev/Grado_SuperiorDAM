@@ -2,12 +2,12 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejemplos;
+package Ejercicios;
 
 import java.util.Scanner;
 
 @SuppressWarnings("ALL")
-public class Ejemplo_Banderas2 {
+public class Ejercicio_9_Banderas2 {
 
     /**
      * Una bandera es una variable booleana que puede tener dos posibles valores
@@ -23,22 +23,24 @@ public class Ejemplo_Banderas2 {
      */
 
     public static void main(String[] args) {
-
+        //Creo el objeto Scanner para pedir por teclado un numero
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Introduce un numero");
         int numero = teclado.nextInt();
+
+        //Creo un contador para incrementar el numero de veces
+        // para saber los numeros que he introducido es pae o impar
         int contador = 0;
 
-        boolean bandera1 = true;
+        boolean bandera1 = true; //Creo una bandera que
 
         while (numero != 0) {
             System.out.println("Introduce un numero");
             numero = teclado.nextInt();
-            if (numero < 0){
+            if (numero < 0) {
                 System.out.println("ES UN NUMERO NEGATIVO!!");
-            }
-        else if ((numero % 2) == 0) {
+            } else if ((numero % 2) == 0) {
                 System.out.println("Es par");
                 bandera1 = true;
             } else {

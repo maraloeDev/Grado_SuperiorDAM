@@ -2,11 +2,11 @@
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejemplos;
+package Ejercicios;
 
 import java.util.Scanner;
 
-public class Bucles4 {
+public class Ejercicio_3_Bucles4 {
 
     /**
      * Programa que muestre. cuente. sume los pares que hay entre 1 y un numero positivo
