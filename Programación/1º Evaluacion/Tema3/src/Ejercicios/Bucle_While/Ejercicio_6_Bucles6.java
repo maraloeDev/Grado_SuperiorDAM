@@ -6,7 +6,7 @@ package Ejercicios.Bucle_While;
 
 import java.util.Scanner;
 @SuppressWarnings("ALL")
-public class Ejercicio_5_Bucles6 {
+public class Ejercicio_6_Bucles6 {
 
     /** Programa que pida al usuario su estado civil
      *

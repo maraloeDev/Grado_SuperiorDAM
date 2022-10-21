@@ -27,14 +27,12 @@ public class Ejercicio_5_Bucles5 {
         while (respuesta == 'S') {
             System.out.print("Introduce un numero ");
             int numero = teclado.nextInt();
-            contador++;
-
-            if (respuesta == 'S' || respuesta == 's') {
 
                 System.out.print("¿Quieres continuar? (S/N) ");
                 respuesta = teclado.next().charAt(0);
+            contador++;
 
-            } else if (respuesta == 'N' || respuesta == 'n') {
+            if (respuesta == 'N' || respuesta == 'n') {
                 System.out.println("Adios...");
             }
 

@@ -43,6 +43,6 @@ public class Ejercicio_5_MCD {
 
         } while (resto != 0);
 
-        System.out.println("MCD (" + "( " + n1 + " y " + n2 + " ) = " + a);
+        System.out.println("MCD" + "( " + a + " y " + b + " ) = " + n1);
     }
 }

@@ -6,7 +6,7 @@ package Ejercicios.Bucle_While;
 
 import java.util.Scanner;
 
-public class Ejercicio_3_Bucles4 {
+public class Ejercicio_4_Bucles4 {
 
     /**
      * Programa que muestre. cuente. sume los pares que hay entre 1 y un numero positivo
