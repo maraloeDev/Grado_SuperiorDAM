@@ -1,1 +1,1 @@
-Tema3.src.EjerciciosPropuestos.Ejercicio_2_SentenciaSwitch_Vocales
+Tema3.src.EjerciciosPropuestos.Switch.Ejercicio_2_SentenciaSwitch_Vocales
