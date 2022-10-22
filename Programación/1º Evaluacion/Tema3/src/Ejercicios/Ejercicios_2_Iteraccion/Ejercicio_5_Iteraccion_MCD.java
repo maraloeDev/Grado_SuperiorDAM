@@ -1,7 +1,6 @@
-/*******************************************************************************
+/** *****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ******************************************************************************/
-
+ ***************************************************************************** */
 package Ejercicios.Ejercicios_2_Iteraccion;
 
 import java.util.Scanner;
@@ -22,7 +21,6 @@ public class Ejercicio_5_Iteraccion_MCD {
         }
 
         //Algoritmo de Euclides
-
         int a; //Es el menor de los numeros
         int b; //Es el mayor de los numeros
         if (n1 <= n2) {

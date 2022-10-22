@@ -1,7 +1,6 @@
-/*******************************************************************************
+/** *****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ******************************************************************************/
-
+ ***************************************************************************** */
 package Ejercicios.Ejercicios_2_Iteraccion;
 
 public class Ejercicio_2_Iteraccion_TablaASCII {
@@ -10,9 +9,9 @@ public class Ejercicio_2_Iteraccion_TablaASCII {
         int carac = 255;
         int minimo = 0;
 
-        while (carac >= minimo){
+        while (carac >= minimo) {
 
-            System.out.println(carac + " " + (char)carac);
+            System.out.println(carac + " " + (char) carac);
             carac--;
         }
     }
