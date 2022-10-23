@@ -6,6 +6,14 @@ package Ejercicios;
 
 import java.util.Scanner;
 
+/**
+ * Escribe un programa SistemaEcuaciones que resuelva el siguiente sistema de ecuaciones
+ * lineales:
+ * ax + by = c
+ * dx + ey = f
+ * donde los coeficientes (a, b, c, d, e y f) son introducidos por teclado
+ */
+
 public class Ejercicio__12_SistemaEcuaciones {
 
     public static void main(String[] args) {

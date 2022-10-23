@@ -6,6 +6,11 @@ package Ejercicios;
 
 import java.util.Scanner;
 
+/**
+ * Escribe un programa llamado GetCharFromAsciiCode que devuelva el carácter asociado al
+ * valor ASCII en decimal introducido por teclado.
+ **/
+
 public class Ejercicio_2_GetCharFromAsciiCode {
 
     public static void main(String[] args) {

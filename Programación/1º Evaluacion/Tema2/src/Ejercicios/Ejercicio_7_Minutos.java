@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class Ejercicio_7_Minutos {
 
+    /**
+     * Escribe un programa Minutos que convierta un número dado de segundos en su equivalente
+     * en minutos y segundos. Ejemplo: 128 s = 2 m 8 s.
+     */
+
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);

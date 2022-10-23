@@ -6,6 +6,11 @@ package Ejercicios;
 
 import java.util.Scanner;
 
+/**
+ * Escribe un programa TablaMultiplicar que escriba por pantalla la tabla de multiplicar de un
+ * número introducido por teclado.
+ */
+
 public class Ejercicio_4_TablaMultiplicar {
 
     public static void main(String[] args) {

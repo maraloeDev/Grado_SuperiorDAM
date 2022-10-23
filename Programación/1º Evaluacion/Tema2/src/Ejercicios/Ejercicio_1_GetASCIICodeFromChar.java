@@ -6,6 +6,11 @@ package Ejercicios;
 
 import java.util.Scanner;
 
+/**
+ * Escribe un programa llamado GetASCIICodeFromChar que devuelva el valor ASCII de un
+ * carácter introducido por teclado
+ */
+
 public class Ejercicio_1_GetASCIICodeFromChar {
 
     public static void main(String[] args) {

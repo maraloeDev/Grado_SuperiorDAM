@@ -8,6 +8,13 @@ import java.util.Scanner;
 
 public class Ejercicio__11_Celsius {
 
+    /**
+     * Escribe un programa Celsius que dada una temperatura en grados Celsius (centígrados)
+     * pueda ser convertida a una temperatura equivalente en grados Fahrenheti de acuerdo a la
+     * siguiente fórmula:
+     * f = ( 9 / 5 ) C + 32
+     */
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

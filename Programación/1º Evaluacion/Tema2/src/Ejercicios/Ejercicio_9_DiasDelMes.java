@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 public class Ejercicio_9_DiasDelMes {
 
+    /**Escribe un programa DiasDelMes, que reciba desde el teclado el número de un mes (del 1
+     al 12) y muestre el número de días de ese mes (febrero 28 días). Utilizar el operador ternario
+     ?*/
+
     static Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
