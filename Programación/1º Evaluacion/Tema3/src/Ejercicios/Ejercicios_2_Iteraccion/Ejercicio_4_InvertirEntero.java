@@ -17,6 +17,7 @@ public class Ejercicio_4_InvertirEntero {
         System.out.println("Introduce un numero");
 
         int numero = teclado.nextInt();
+
         String mensaje = String.valueOf(numero);
         StringBuilder cadena = new StringBuilder(mensaje);
 

@@ -17,16 +17,17 @@ public class Ejercicio_1_Primo {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Introduce un número : ");
+        System.out.println("Introduce un numero : ");
 
-        int numero = teclado.nextInt();
+        int n = teclado.nextInt();
 
         boolean primo = true; //considero que nº es primo
-        int i = 2;
+        int i = 2; //generador de numeros entre 1 y n
 
-        while (i < numero && primo) {
-            if (numero % 1 == 0) {
+        while (i < n && primo) {
+            if (n % 1 == 0) {
 
+                primo = false; //salgo del proceso por que ya se que no es primo
             }
             i++; //compruebo ek siguiente número
         }
@@ -34,7 +35,7 @@ public class Ejercicio_1_Primo {
         if (primo) {
             System.out.println("El numero es primo");
         } else {
-            System.out.println("El número no es primo");
+            System.out.println("El numero no es primo");
         }
     }
 }
