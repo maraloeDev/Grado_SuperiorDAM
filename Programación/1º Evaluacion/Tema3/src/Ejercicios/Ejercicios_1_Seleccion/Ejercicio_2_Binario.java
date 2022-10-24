@@ -14,7 +14,7 @@ import java.util.Scanner;
  se tratasen de un número binario de tres bits y mostrar su valor en decimal.
  Nota: El número binario b2 b1 b0 con b = 0, 1 en decimal se calcula como 2*2*b 2 + 2*b1 + b0 .*/
 
-public class Ejercicio_2_Seleccion_Binario {
+public class Ejercicio_2_Binario {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);

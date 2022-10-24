@@ -12,7 +12,7 @@ package Ejercicios.Ejercicios_2_Iteraccion;
  66:B
  ...*/
 
-public class Ejercicio_2_Iteraccion_TablaASCII {
+public class Ejercicio_2_TablaASCII {
 
     public static void main(String[] args) {
         int carac = 255;

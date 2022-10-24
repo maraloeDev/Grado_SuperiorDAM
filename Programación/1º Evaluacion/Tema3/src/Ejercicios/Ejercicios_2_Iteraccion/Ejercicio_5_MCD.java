@@ -18,7 +18,7 @@ import java.util.Scanner;
  • Paso 2: 112 / 84 → resto = 28
  • Paso 3: 84 / 28 → resto = 0 → FIN: MCD = 28 */
 
-public class Ejercicio_5_Iteraccion_MCD {
+public class Ejercicio_5_MCD {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
