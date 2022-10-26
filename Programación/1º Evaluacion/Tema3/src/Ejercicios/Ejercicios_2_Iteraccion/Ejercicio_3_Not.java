@@ -22,7 +22,7 @@ public class Ejercicio_3_Not {
         String s = teclado.next(); //cadena con la entrada del usuario
 
         if (s.length() != 8) {
-            System.out.println("No es valido");
+            System.out.println("Ni ");
         } else {
             int i = 0;
             boolean bit = true;
@@ -42,7 +42,7 @@ public class Ejercicio_3_Not {
                 int dec = 0; //decimal del NOT
                 while (i < s.length()) {
                     if (s.charAt(i) == '0') {
-                        System.out.println("1");
+                        System.out.println("0");
 
                     }
                     i++;
