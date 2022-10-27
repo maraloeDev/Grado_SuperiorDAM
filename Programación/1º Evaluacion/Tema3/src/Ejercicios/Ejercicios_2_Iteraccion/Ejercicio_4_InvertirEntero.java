@@ -9,23 +9,25 @@ import java.util.Scanner;
 public class Ejercicio_4_InvertirEntero {
     /**
      * Escribe un programa llamado InvertirEntero que invierta los dígitos de un entero dado por el
-     * usuario. Para ello convierte el número a ca
-     * dena.
+     * usuario. Para ello convierte el número a cadena.
      */
 
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un numero");
-        int numero = teclado.nextInt();
+        String numero = String.valueOf(teclado.next());
 
-        String longitud = String.valueOf(numero);
-        int total = longitud.length();
+        String resultado="";
 
-        while (total >= longitud.length() ){
-            total--;
+        int invertido = numero.length() - 1;
+
+        while (invertido >= 0){
+            resultado = resultado + numero.charAt(invertido);
+            invertido--;
         }
-        System.out.println(total);
+        System.out.println(resultado);
+
 
         //int numero = teclado.nextInt();
 //
