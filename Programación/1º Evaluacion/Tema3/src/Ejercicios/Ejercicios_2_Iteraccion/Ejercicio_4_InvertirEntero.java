@@ -1,15 +1,15 @@
-/*******************************************************************************
+/** *****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ******************************************************************************/
-
+ ***************************************************************************** */
 package Ejercicios.Ejercicios_2_Iteraccion;
 
 import java.util.Scanner;
 
 public class Ejercicio_4_InvertirEntero {
+
     /**
-     * Escribe un programa llamado InvertirEntero que invierta los dígitos de un entero dado por el
-     * usuario. Para ello convierte el número a cadena.
+     * Escribe un programa llamado InvertirEntero que invierta los dígitos de un
+     * entero dado por el usuario. Para ello convierte el número a cadena.
      */
 
     public static void main(String[] args) {
@@ -18,22 +18,14 @@ public class Ejercicio_4_InvertirEntero {
         System.out.println("Introduce un numero");
         String numero = String.valueOf(teclado.next());
 
-        String resultado="";
+        String resultado = "";
 
         int invertido = numero.length() - 1;
 
-        while (invertido >= 0){
+        while (invertido >= 0) {
             resultado = resultado + numero.charAt(invertido);
             invertido--;
         }
-        System.out.println(resultado);
-
-
-        //int numero = teclado.nextInt();
-//
-        //String mensaje = String.valueOf(numero);
-        //StringBuilder cadena = new StringBuilder(mensaje);
-        //String fin = cadena.reverse().toString();
-        //System.out.println("El numero invertido " + numero + " invertido es " + fin);
+        System.out.println("El numero real " + numero + " invertido es " + resultado);
     }
 }
