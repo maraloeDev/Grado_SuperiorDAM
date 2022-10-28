@@ -5,13 +5,13 @@
 public class Persona {
 
     //ATRIBUTOS
-    String nombre;
-    String apellidos;
-    String edad;
+    String nombre; //value String
+    String apellidos; //value String
+    int edad; //value Integer
 
     //CONSTRUCTOR CON PARÁMETROS
 
-    public Persona(String nombre, String apellidos, String edad) {
+    public Persona(String nombre, String apellidos, int edad) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
@@ -35,11 +35,11 @@ public class Persona {
         this.apellidos = apellidos;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
