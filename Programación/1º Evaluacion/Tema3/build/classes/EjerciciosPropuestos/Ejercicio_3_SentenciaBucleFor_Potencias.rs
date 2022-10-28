@@ -1,1 +1,0 @@
-Tema3.src.EjerciciosPropuestos.For.Ejercicio_3_SentenciaBucleFor_Potencias
