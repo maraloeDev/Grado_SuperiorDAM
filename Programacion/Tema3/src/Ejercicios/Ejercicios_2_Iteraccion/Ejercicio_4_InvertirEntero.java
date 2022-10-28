@@ -3,6 +3,7 @@
  ******************************************************************************/
 package Ejercicios.Ejercicios_2_Iteraccion;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio_4_InvertirEntero {
@@ -13,26 +14,27 @@ public class Ejercicio_4_InvertirEntero {
      */
 
     public static void main(String[] args) {
+        try {
 
-        Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduce un numero");
-        String numero = String.valueOf(teclado.next());
-        int j =0;
-        while (j < numero.length()){
-            if (!Character.isDigit(numero.charAt(j))){ //Si el caracter no es un dígito, entonces
+            Scanner teclado = new Scanner(System.in);
+            System.out.println("Introduce un numero");
+            int numero = teclado.nextInt();
+            String total = String.valueOf(numero);
 
-                System.out.println("Error");
-            }
-            j++;
+            String resultado = "";
+
+            int invertido = total.length() - 1;
+            do {
+                resultado = resultado + total.charAt(invertido);
+                invertido--;
+
+            } while (invertido >= 0); //Se incluye 0 por que es el primero character
+
+
+            System.out.println("El numero real " + numero + " invertido es " + resultado);
+        } catch (InputMismatchException ex) {
+            System.out.println("Error");
         }
-        String resultado = "";
 
-        int invertido = numero.length() - 1;
-
-        while (invertido >= 0) { //Se incluye 0 por que es el primero character
-            resultado = resultado + numero.charAt(invertido);
-            invertido--;
-        }
-        System.out.println("El numero real " + numero + " invertido es " + resultado);
     }
 }
