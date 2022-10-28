@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de9cf826-5776-4c74-ae16-56d022affa1f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/.idea/copyright/Copy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/Vehiculo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/out/production/Vehiculo/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/out/production/Vehiculo/Persona_App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/src/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/Ejercicio2/Vehiculo/src/Persona_App.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2Gkz81rq2xIervLP7N2BbNZ5lTy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Entornos de Desarrollo/1º Evaluación/TEMA 2/Ejemplos",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de9cf826-5776-4c74-ae16-56d022affa1f" name="Changes" comment="" />
+      <created>1666947208258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666947208258</updated>
+    </task>
+    <servers />
+  </component>
+</project>
