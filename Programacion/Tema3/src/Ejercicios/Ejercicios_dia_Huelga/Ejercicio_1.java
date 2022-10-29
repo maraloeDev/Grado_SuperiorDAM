@@ -8,35 +8,24 @@ import java.util.Scanner;
 
 public class Ejercicio_1 {
 
+    /**
+     * Introducir por teclado una serie de números. Sumar los múltiplos de 5, decir cuál es el mayor y cuántos números se han introducido
+     */
+
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
+String respuesta="S";
+        do {
+            System.out.println("Introduce un numero");
+            int numero = teclado.nextInt();
+            System.out.println("Quieres volver a introducir un numero??? (S o N)");
 
-        char respuesta = 'S';
-        int contador = 0;
-        int multiploCinco=0;
-        int total = 0;
-        int numero=0;
-
-        while (respuesta == 'S') {
-            System.out.print("Introduce un numero ");
-             numero = teclado.nextInt();
-
-            System.out.print("¿Quieres continuar? (S/N) ");
-            respuesta = teclado.next().charAt(0);
-            contador++;
-
-            if (respuesta == 'N' || respuesta == 'n') {
-                System.out.println("Adios...");
-            } else if (numero % 5 == 0 ) {
-                total = total + numero;
+            } else{
+                System.out.println("Has acabado");
             }
-             else {
-                System.out.println("El numero introducido no es multiplo de cinco");
-            }
-        }
-        System.out.println("Has introducido " + contador + " numeros");
-        System.out.println("La suma de todos los multiplos de cinco es " + numero );
+
+        }while (respuesta=="S");
 
     }
 }
