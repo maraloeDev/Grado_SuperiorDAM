@@ -15,17 +15,31 @@ public class Ejercicio_1 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
-String respuesta="S";
-        do {
-            System.out.println("Introduce un numero");
-            int numero = teclado.nextInt();
-            System.out.println("Quieres volver a introducir un numero??? (S o N)");
+        char respuesta = 'S';
+        int contador = 0;
+        int numero = 0;
+        int multiploCinco = 5;
 
-            } else{
-                System.out.println("Has acabado");
+        while (respuesta == 'S') {
+            System.out.print("Introduce un numero");
+            numero = teclado.nextInt();
+            contador++;
+
+            System.out.print("Quiere volver a introducir el numero? (S o N)");
+            respuesta = teclado.next().charAt(0);
+
+            if ((numero % 5) == 0) {
+                numero += multiploCinco;
+
+            } else {
+
+                System.out.println("El numero que has introducido NO es un multiplo de 5");
             }
 
-        }while (respuesta=="S");
-
+        }
+        System.out.println("Has acabado...");
+        System.out.println("El total de los numeros es de " + multiploCinco);
     }
 }
+
+
