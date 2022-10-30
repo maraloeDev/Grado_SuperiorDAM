@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="de9cf826-5776-4c74-ae16-56d022affa1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../Programacion/Tema3/src/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Programacion/Tema3/src/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Programacion/Tema3/src/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Programacion/Tema3/src/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Programacion/Tema3/src/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Programacion/Tema3/src/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Programacion/out/production/Tema3/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Programacion/out/production/Tema3/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Programacion/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Programacion/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +26,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/marti/OneDrive/Grado_SuperiorDAM/Entornos de Desarrollo/1º Evaluación/TEMA 2/Ejemplos",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marti/OneDrive/Grado_SuperiorDAM/Entornos de Desarrollo/1º Evaluación/TEMA 2/Ejemplos&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
