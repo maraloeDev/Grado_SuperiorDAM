@@ -16,10 +16,22 @@ public class Ejercicio_4 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
+        char respuesta='S';
 
-        double aleatorio = 50 * (Math.random() + 60);
+        do {
+        int numero = (int) (Math.random() * 2 + 1);
 
-        System.out.println(aleatorio);
+        if (numero==1){
+            System.out.println("Cara");
+        } else {
+            System.out.println("Cruz");
+        }
 
+            System.out.println("Quieres volver a repetirlo??");
+        respuesta=teclado.next().charAt(0);
+
+        }while (respuesta =='S' || respuesta == 's');
+        System.out.println("Has acabado");
     }
+
 }
