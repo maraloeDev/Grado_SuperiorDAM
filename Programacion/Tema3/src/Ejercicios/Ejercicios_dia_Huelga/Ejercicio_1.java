@@ -16,10 +16,10 @@ public class Ejercicio_1 {
 
         Scanner teclado = new Scanner(System.in);
         char respuesta = 'S';
-        int contador = 0;
         int numero = 0;
-        int multiploCinco = 5;
-
+        int sumamultiplos = 0;
+        int contador = 0;
+        int mayor=Integer.MIN_VALUE;
         while (respuesta == 'S') {
             System.out.print("Introduce un numero");
             numero = teclado.nextInt();
@@ -29,7 +29,10 @@ public class Ejercicio_1 {
             respuesta = teclado.next().charAt(0);
 
             if ((numero % 5) == 0) {
-                numero += multiploCinco;
+                sumamultiplos = sumamultiplos + numero;
+
+            } if (numero > mayor) {
+                mayor=numero;
 
             } else {
 
@@ -38,7 +41,9 @@ public class Ejercicio_1 {
 
         }
         System.out.println("Has acabado...");
-        System.out.println("El total de los numeros es de " + multiploCinco);
+        System.out.println("El total de los numeros multiplos total es de " + sumamultiplos);
+        System.out.println("El mayor de los numeros es " + mayor);
+        System.out.println("Has introducido " + contador + " numeros");
     }
 }
 
