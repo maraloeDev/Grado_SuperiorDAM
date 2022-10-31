@@ -14,25 +14,12 @@ public class Ejercicio_4 {
      */
 
     public static void main(String[] args) {
+
         Scanner teclado = new Scanner(System.in);
 
-        String respuesta = "S";
+        double aleatorio = 50 * (Math.random() + 60);
 
-         while (respuesta == "S"){
-
-            for (int i = (int) (Math.random()*10); i <= 10; i++) {
-
-                if (i < 5){
-                    System.out.println("Ha salido cara");
-                } else {
-                    System.out.println("Ha salido cruz");
-                }
-            System.out.println("Quiere volver a repetir la tirada (S o N)");
-            respuesta= teclado.nextLine();
-            }
-
-         }
+        System.out.println(aleatorio);
 
     }
 }
-

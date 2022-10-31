@@ -3,7 +3,7 @@
  ******************************************************************************/
 package Ejercicios.Ejercicios_dia_Huelga;
 
-import java.awt.font.NumericShaper;
+
 import java.util.Scanner;
 
 public class Ejercicio_1 {
