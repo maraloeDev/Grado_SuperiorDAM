@@ -20,6 +20,7 @@ public class Ejercicio_1 {
         int sumamultiplos = 0;
         int contador = 0;
         int mayor=Integer.MIN_VALUE;
+
         while (respuesta == 'S') {
             System.out.print("Introduce un numero");
             numero = teclado.nextInt();

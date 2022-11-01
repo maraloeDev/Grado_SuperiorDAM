@@ -17,10 +17,11 @@ public class Ejercicio_2 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
-        //Creacion de variables frase para la introduccion de texto mediante el objeto Scanner
+        //Creacion de variables frase y caracter para la introduccion de texto mediante el objeto Scanner
         String frase = "";
         String caracter = "";
         int contador = 0;
+
         do {
             System.out.println("Introduce una frase");
             frase = teclado.nextLine();
@@ -29,12 +30,10 @@ public class Ejercicio_2 {
 
         System.out.println("Introduce un caracter");
         caracter = teclado.next();
-        for (int i = 0; i < frase.length(); i++) {
-
+        while (contador < frase.length() - 1) {
             if (frase.charAt(contador) == caracter.charAt(0)) {
-                contador++;
-
             }
+            contador++;
         }
 
         if (contador != 0) {

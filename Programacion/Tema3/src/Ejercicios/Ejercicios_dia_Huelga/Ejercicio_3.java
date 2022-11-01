@@ -13,23 +13,9 @@ public class Ejercicio_3 {
 
     public static void main(String[] args) {
 
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Introduce cadena: ");
-        String cadena=sc.next();
-
-        int longitud=cadena.length();
-        for(int i=0; i<longitud/2; i++){
-            System.out.print(cadena.charAt(i)); //del principio
-            System.out.print(cadena.charAt(longitud-1-i));
-        }
-
-        //si la cadena es impar
-        if(longitud%2!=0){
-            System.out.println(cadena.charAt(longitud/2));
-        }
-
-        System.out.println();
-
+        Scanner teclado = new Scanner(System.in);
+        String texto = teclado.nextLine();
+        int caracter= Integer.parseInt(String.valueOf(0));
 
     }
 
