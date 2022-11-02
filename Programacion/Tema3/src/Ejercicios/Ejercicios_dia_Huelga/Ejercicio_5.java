@@ -11,10 +11,10 @@ public class Ejercicio_5 {
 
     public static void main(String[] args) {
 
-        int contador=0;
-        int veces = 0;
-        
-        System.out.println("Ha salido el 10 " + veces + " veces");
+        for (int i = 0; i <= 100; i++) {
+            int dado1=
+
+        }
 
 
 
