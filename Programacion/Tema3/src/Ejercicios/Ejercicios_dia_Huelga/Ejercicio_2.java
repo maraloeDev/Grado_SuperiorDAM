@@ -30,7 +30,7 @@ public class Ejercicio_2 {
 
         System.out.println("Introduce un caracter");
         caracter = teclado.next();
-        while (contador < frase.length() - 1) {
+        while (contador < frase.length()) {
             if (frase.charAt(contador) == caracter.charAt(0)) {
             }
             contador++;
