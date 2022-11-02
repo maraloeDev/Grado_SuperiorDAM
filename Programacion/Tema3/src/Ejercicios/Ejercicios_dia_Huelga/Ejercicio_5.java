@@ -11,10 +11,23 @@ public class Ejercicio_5 {
 
     public static void main(String[] args) {
 
+        int veces=0;
         for (int i = 0; i <= 100; i++) {
-            int dado1=
+            int dado1 = (int) (Math.random() * 6) +1;
+            int dado2 = (int) (Math.random() * 6) +1;
 
+            System.out.println("Tirada " + i);
+            System.out.println("---------------------");
+            System.out.println("Dado 1 = " + dado1);
+            System.out.println("Dado 2 = " + dado2);
+            System.out.println("Suman " + (dado1 + dado2));
+
+        if (dado1 + dado2 == 10){
+            veces++;
         }
+        }
+        System.out.println("Las veces que ha aparecido el 10 es " + veces);
+
 
 
 
