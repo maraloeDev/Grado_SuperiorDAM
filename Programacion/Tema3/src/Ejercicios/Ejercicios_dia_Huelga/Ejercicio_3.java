@@ -17,17 +17,14 @@ public class Ejercicio_3 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una frase :");
         String texto = teclado.nextLine();
-        int contador = 0; // Es la variable que avanza hacia delante
-        int fraseinicial = texto.length(); // Es la variable que avanza hacia
 
-        while (contador != fraseinicial) {
-            System.out.println(texto.charAt(contador));
+        int contador = 0;
+
+        do {
+            System.out.println(texto.substring(contador, contador + 1));
+            System.out.println(texto.substring(texto.length() - contador - 1, texto.length() - contador));
             contador++;
-            if (contador != fraseinicial) {
-                System.out.println(texto.charAt(fraseinicial - 1));
-                fraseinicial--;
-            }
+
+        } while (contador < texto.length() / 2);
         }
     }
-
-}
