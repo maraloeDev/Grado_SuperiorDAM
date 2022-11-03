@@ -11,10 +11,10 @@ public class Ejercicio_5 {
 
     public static void main(String[] args) {
 
-        int veces=0;
+        int veces=0; //Contador de veces de tirada de lps dados
         for (int i = 0; i <= 100; i++) {
-            int dado1 = (int) (Math.random() * 6) +1;
-            int dado2 = (int) (Math.random() * 6) +1;
+            int dado1 = (int) (Math.random() * 6) +1; //Generacion alearoria entre 1 y 6
+            int dado2 = (int) (Math.random() * 6) +1; //Generacion alearoria entre 1 y 6
 
             System.out.println("Tirada " + i);
             System.out.println("---------------------");
