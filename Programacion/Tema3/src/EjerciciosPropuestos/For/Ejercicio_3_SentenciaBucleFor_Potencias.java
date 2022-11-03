@@ -10,8 +10,11 @@ public class Ejercicio_3_SentenciaBucleFor_Potencias {
     //100 utilizando un bucle for
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 7; i++) {
-            System.out.println(i + " elevado a 2  = " + (int) Math.pow(2, i));
+        for (int i = 1; (int) Math.pow(2, i) <= 100; i++) {
+
+            if (i <= 100){
+                System.out.println(i + " elevado a 2  = " + (int) Math.pow(2, i));
+            }
 
         }
 
