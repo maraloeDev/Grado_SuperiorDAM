@@ -26,7 +26,7 @@ public class Ejercicio_5 {
             veces++;
         }
         }
-        System.out.println("Las veces que ha aparecido el 10 es " + veces);
+        System.out.println("Las veces que ha aparecido el 10 es " + "\033[0;1m" + veces);
 
 
 
