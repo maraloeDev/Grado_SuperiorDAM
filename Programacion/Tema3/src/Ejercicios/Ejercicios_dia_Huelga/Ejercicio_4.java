@@ -3,7 +3,6 @@
  ******************************************************************************/
 package Ejercicios.Ejercicios_dia_Huelga;
 
-import java.util.AbstractList;
 import java.util.Scanner;
 
 public class Ejercicio_4 {
