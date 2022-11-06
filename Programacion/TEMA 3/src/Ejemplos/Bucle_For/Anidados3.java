@@ -4,6 +4,15 @@
 package Ejemplos.Bucle_For;
 
 public class Anidados3 {
+    
+    /**
+     * IMPRIMIR  UN ANGULO AGUDO AL REVES
+     * 
+     *      ***
+     *      **
+     *      *
+     * @param args 
+     */
 
     public static void main(String[] args) {
 

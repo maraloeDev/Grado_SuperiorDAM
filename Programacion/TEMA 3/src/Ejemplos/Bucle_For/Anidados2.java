@@ -4,6 +4,14 @@
 package Ejemplos.Bucle_For;
 
 public class Anidados2 {
+    
+    /**
+     * IMPRIMIR MEDIO TRIANFULO DE FORMA ALEATORIA
+     *  *
+     *  **
+     *  ***
+     * @param args 
+     */
 
     public static void main(String[] args) {
         int base = (int) (10 * Math.random() + 2);
