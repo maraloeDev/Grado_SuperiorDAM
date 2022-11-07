@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c7bd11f-ccfb-440f-974d-ca5991f79497" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tema3/src/Ejemplos/Bucle_For/Anidados1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema3/src/Ejemplos/Bucle_For/Anidados2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema3/src/Ejemplos/Bucle_For/Anidados3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema3/src/Ejemplos/Bucle_For/Anidados4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema3/src/Ejemplos/Bucle_For/ForAnidados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema3/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema3/Ejercicios/Ejercicios_dia_Huelga/Ejercicio_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema3/EjerciciosPropuestos/For/Ejercicio_3_SentenciaBucleFor_Potencias.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema3/EjerciciosPropuestos/For/Ejercicio_3_SentenciaBucleFor_Potencias.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema3/Teoria/TEMA3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema3/Teoria/TEMA3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
