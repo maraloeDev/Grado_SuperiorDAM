@@ -39,13 +39,11 @@ public class Ejercicio_3_Tabla {
 
         System.out.println("Tabla de " + filas + " X " + columnas);
 
-        System.out.println(filas + " x " + columnas + " = " + (filas * columnas));
         System.out.println("------------------------------------------------------");
-        int contador = 1; //Creacion del contador para la suma de numeros de las filas y las columnas
 
-        for (int i = columnas; i >= 1; i--) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println("");
-            for (int j = filas; j > i; j--) {
+            for (int j = 1; j <= 10; j++) {
                 System.out.print(" " + i * j);
 
             }
