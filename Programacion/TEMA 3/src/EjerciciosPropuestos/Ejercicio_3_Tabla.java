@@ -45,14 +45,13 @@ public class Ejercicio_3_Tabla {
 
         for (int i = columnas; i >= 1; i--) {
             System.out.println("");
-            for (int j = filas; j > i;j--) {
-                System.out.print(" " +i*j);
-                
+            for (int j = filas; j > i; j--) {
+                System.out.print(" " + i * j);
+
             }
-            
-        }
-        System.out.println("");            
-        }
 
-
+        }
+        System.out.println("");
     }
+
+}
