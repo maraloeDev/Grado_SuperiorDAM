@@ -1,44 +1,34 @@
-/*******************************************************************************
+/** *****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ******************************************************************************/
-
+ ***************************************************************************** */
 package Ejercicios.Ejercicios_2_Iteraccion;
 
 public class Ejercicio_8_Triangulo3 {
 
     public static void main(String[] args) {
-
-        for (int i = 1; i == 1; i++) {
-            System.out.println(i);
-            for (int j = 2; j == 2; j++) {
-                System.out.println(i + "" + j);
-                for (int k = 3; k == 3; k++) {
-                    System.out.println(i + "" + j + "" + k);
-                    for (int l = 4; l == 4; l++) {
-                        System.out.println(i + "" + j + "" + k + "" + l);
-                        for (i = 1; i == 1; i++) {
-                            System.out.println(i + "" + j + "" + k + "" + l);
-
-                            for (j = 2; j == 2; j++) {
-                                System.out.println(i + "" + j + "" + k);
-
-                                for (k = 3; k == 3; k++) {
-                                    System.out.println(i + "" + j);
-
-                                    for (l = 4; l == 4; l++) {
-                                        System.out.println(i);
-
-                                    }
-
-                                }
-                            }
-                        }
-
-                    }
-
-                }
+//El segundo bucle es del 1 al 4
+        int base = 4;
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
 
             }
+            System.out.println("");
+
         }
+        
+        //El segundo bucle es del 4 al 1
+        int n = 4;
+        for (int i = 1; i <= n; i++) {
+            int num = 1;
+            for (int j = n; j >= i; j--) {
+                System.out.print(num);
+                num++;
+
+            }
+            System.out.println("");
+
+        }
+
     }
 }
