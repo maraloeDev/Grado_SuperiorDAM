@@ -36,7 +36,7 @@ public class Ejercicio_3_Tabla {
 
         System.out.println("------------------------------------------------------");
 
-        for (int i = 1; i <dimensiones+1; i++) {
+        for (int i = 1; i < dimensiones + 1; i++) {
             System.out.println();
             for (int j = 1; j <= 10; j++) {
                 System.out.print("\t " + i * j);
