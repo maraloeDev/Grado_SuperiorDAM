@@ -24,27 +24,22 @@ public class Ejercicio_3_Tabla {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        int filas = 0;
-        int columnas = 0;
+        int dimensiones = 0;
 
         //Peticion de dimensión
         do {
-            System.out.println("Introduce un valor maximo 10 y minimo 1");
-            filas = teclado.nextInt();
+            System.out.println("Introduce las dimensiones");
+            dimensiones = teclado.nextInt();
+        } while (dimensiones <= 0);
 
-            System.out.println("Introduce un valor maximo 10 y minimo 1");
-            columnas = teclado.nextInt();
-
-        } while (filas == 0 || columnas == 0);
-
-        System.out.println("Tabla de " + filas + " X " + columnas);
+        System.out.println("Tabla de " + dimensiones);
 
         System.out.println("------------------------------------------------------");
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("");
+        for (int i = 1; i <dimensiones+1; i++) {
+            System.out.println();
             for (int j = 1; j <= 10; j++) {
-                System.out.print(" " + i * j);
+                System.out.print("\t " + i * j);
 
             }
 
