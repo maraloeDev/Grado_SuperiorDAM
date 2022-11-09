@@ -4,6 +4,8 @@
  */
 package Ejemplos;
 
+import java.util.Scanner;
+
 /**
  *
  * @author maraloed
@@ -11,14 +13,27 @@ package Ejemplos;
 public class EjemplosWrappers {
     
     public static void main(String[] args) {
-        Integer num =0;
-        Character letra = 'a';
-        Double sueldo = 500.5;
+        /** Uso de parse 
+         * 
+         * Para transformar de string a tipo basico
+         */
+        Scanner teclado = new Scanner(System.in);
         
-        Integer num2 = new Integer(25);
+        System.out.println("Introduce tu edad");
+        int edad = Integer.parseInt(teclado.next());
         
-        int edad= 33 ;
-        num2=edad;
+        System.out.println("Introduce una cantidad ");
+        String cantidad = teclado.nextLine();
+        
+        Integer cantid=Integer.valueOf(cantidad);
+        
+        
+        String.valueOf(edad);
+        
+        System.out.println("Introduce el codigo postal");
+        
+
+        
     }
     
 }
