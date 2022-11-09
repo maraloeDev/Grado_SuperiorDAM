@@ -30,13 +30,13 @@ public class Ejercicio_3_Tabla {
         do {
             System.out.println("Introduce las dimensiones");
             dimensiones = teclado.nextInt();
-        } while (dimensiones <= 0);
+        } while (dimensiones < 1 || dimensiones  > 10 );
 
         System.out.println("Tabla de " + dimensiones);
 
         System.out.println("------------------------------------------------------");
 
-        for (int i = 1; i < dimensiones + 1; i++) {
+        for (int i = 1; i <= dimensiones; i++) {
             System.out.println();
             for (int j = 1; j <= 10; j++) {
                 System.out.print("\t " + i * j);
