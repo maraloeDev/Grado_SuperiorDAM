@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author ortsanma
+ * @author maraloed
  */
-public class Str_String {
+public class EjemploString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce una cadena");
