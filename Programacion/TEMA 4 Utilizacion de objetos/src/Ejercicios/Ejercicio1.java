@@ -40,17 +40,16 @@ public class Ejercicio1 {
                 + caracterMayus + "" + caracterMinus + "" + numero);
 
     }*/
-    
     public static void main(String[] args) {
         Random random = new Random();
 
         int numero = random.nextInt(25) + 1; //Generador de numeros aleatorios entre 1 y 25
-        int aleatorio=0;
-        String resultado= "";
-        int i=0;
-        for ( i = 0; i < numero; i++) {
-            aleatorio= random.nextInt(94) + 33;
-            
+        int aleatorio = 0;
+        String resultado = "";
+        int i = 0;
+        for (i = 0; i < numero; i++) {
+            aleatorio = random.nextInt(94) + 33;
+
             resultado = resultado + (char) aleatorio;
         }
         System.out.println("Palabra generada ( tamano " + i + ") " + resultado);
