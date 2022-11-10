@@ -1,0 +1,9 @@
+p[aling] {
+    background-color: bisque;
+}
+p[aling = "justify"] {
+    background-color: red;
+}
+p:not([aling="center"]) { /* Si no tiene aling="center" */  
+    background-color: green ;
+}

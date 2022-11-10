@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+}
+h3{
+    background-color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.datospersonales{
+    color: red;
+}
+span {
+    color: black;
+}
+.encabezado{
+    color: white;
+}
