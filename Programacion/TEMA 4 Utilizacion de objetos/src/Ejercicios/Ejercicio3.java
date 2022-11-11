@@ -23,25 +23,26 @@ Introduce una frase
 
 La frase mas larga introducida ha sido "Estoy cansado"*/
 public class Ejercicio3 {
-    
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        
-        String cadena="";
-        String cadenaMayor="";
-        int longitudMayor=0;
+        String cadena = "";
+
+        String cadenaLarga = ""; //Creacion de cadenaLarga vacia para sustituirlo por la ultima cadena introducida por teclado
+        int longitudMayus = 0;
         do {
-            System.out.println("Introduce una cadena");
-            cadena=teclado.nextLine();
-            if(!cadena.isBlank()){
-                if(cadena.length() > longitudMayor ){
-                    cadenaMayor=cadena;
+
+            System.out.println("Introduce una frase : ");
+            cadena = teclado.nextLine();
+            if (!cadena.isBlank()) {
+//Si la longitud de la cadena es mayor que maxima longitud, entonces la cadena larga pasa a ser la ultima cadena
+                if (cadena.length() > longitudMayus) {
+                    cadenaLarga = cadena;
                 }
-                
             }
-        } while (!cadena.isBlank());
-        
-        System.out.println("La palabra mas larga es " + cadenaMayor);
+        } while (!cadena.isBlank()); //Si la cadena NO esta vacia entonces se repite
+        System.out.println("La frase mas larga introducida ha sido " + cadenaLarga);
+
     }
 
 }
