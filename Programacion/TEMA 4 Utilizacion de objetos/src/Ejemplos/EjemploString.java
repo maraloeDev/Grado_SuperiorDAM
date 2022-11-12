@@ -46,7 +46,7 @@ public class EjemploString {
         boolean iguales = cadena.equals(cadena2);//Iguales en longitud e igual por parejas
         
         int orden = cadena.compareTo(cadena2); //compara alfabeticamente, si va antes
-        // devuelve -1, si va despues devuelve +1 y si es igual devuelve 0
+        // devuelve -1, si va despues devuelve +1 y s3i es igual devuelve 0
                                                     
         
     }
