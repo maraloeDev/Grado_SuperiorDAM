@@ -6,7 +6,7 @@ package Ejemplos;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class Fechas1 {
+public class EjemplosFechas1 {
 
     /* Gregoriann Calendar  + calendar*/
     public static void main(String[] args) {
