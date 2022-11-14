@@ -1,6 +1,6 @@
-/*******************************************************************************
- Copyright (c) EDUARDO MARTÍN-SONSECA (maraloed)
- ******************************************************************************/
+/** *****************************************************************************
+ * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloed)
+ ***************************************************************************** */
 package Ejercicios;
 
 import java.util.InputMismatchException;
@@ -12,7 +12,6 @@ public class Ejercicio_4_InvertirEntero {
      * Escribe un programa llamado InvertirEntero que invierta los dígitos de un
      * entero dado por el usuario. Para ello convierte el número a cadena.
      */
-
     public static void main(String[] args) {
         try {
 
@@ -29,7 +28,6 @@ public class Ejercicio_4_InvertirEntero {
                 invertido--;
 
             } while (invertido >= 0); //Se incluye 0 por que es el primero character
-
 
             System.out.println("El numero real " + numero + " invertido es " + resultado);
         } catch (InputMismatchException ex) {
