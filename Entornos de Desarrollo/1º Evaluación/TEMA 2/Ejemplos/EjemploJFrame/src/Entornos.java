@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class entornos extends JFrame {
+public class Entornos extends JFrame {
 
-    public entornos() throws HeadlessException {
+    public Entornos() throws HeadlessException {
 
         JLabel l = new JLabel("Mi primer Proyecto");
         this.add(l);
@@ -15,7 +15,7 @@ public class entornos extends JFrame {
 
     public static void main(String[] args) {
 
-        entornos frame = new entornos();
+        Entornos frame = new Entornos();
 
     }
 }
