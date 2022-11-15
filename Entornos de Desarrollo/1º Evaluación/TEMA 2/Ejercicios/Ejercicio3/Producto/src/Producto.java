@@ -65,9 +65,10 @@ public class Producto {
 
         Producto product = new Producto(id_producto, desctipcion, unidades);
 
-        System.out.println(id_producto);
-        System.out.println(desctipcion);
-        System.out.println(unidades);
+        System.out.println("El id del producto son " + id_producto);
+        System.out.println("La descripción del producto es " + desctipcion);
+        System.out.println("Las unidades del producto son: " + unidades);
+        
 
     }
 
