@@ -1,0 +1,2 @@
+SUPERMERCADO(id_supermercado(PK),m2,fecha,regimen_compra_o_alquiler,direccion;
+DIRECTOR
