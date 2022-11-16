@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+}
+
+.propiedades1 {
+  margin: 50px;
+  border: groove blue;
+}
+
+.propiedades2 {
+  margin: 10px;
+  border: dotted red;
+}
+
+.propiedades1 span{
+    color: red;
+}
+.propiedades2 span{
+    color: blue;
+}
