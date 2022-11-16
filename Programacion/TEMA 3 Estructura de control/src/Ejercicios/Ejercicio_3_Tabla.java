@@ -22,29 +22,28 @@ import java.util.Scanner;
 public class Ejercicio_3_Tabla {
 
     public static void main(String[] args) {
+
         Scanner teclado = new Scanner(System.in);
-
         int dimensiones = 0;
-
-        //Peticion de dimensión
         do {
-            System.out.println("Introduce las dimensiones");
+            System.out.println("Introduce el numero de dimensiones ");
             dimensiones = teclado.nextInt();
-        } while (dimensiones < 1 || dimensiones  > 10 );
 
-        System.out.println("Tabla de " + dimensiones);
-
-        System.out.println("------------------------------------------------------");
-
-        for (int i = 1; i <= dimensiones; i++) {
-            System.out.println();
-            for (int j = 1; j <= 10; j++) {
-                System.out.print("\t " + i * j);
+            if (dimensiones == 0) {
+                System.out.println("Numero no valido");
 
             }
 
+        } while (dimensiones == 0);
+
+        for (int i = 0; i <= dimensiones; i++) { //Si i es mayor o igual al numero de dimensiones
+            for (int j = 0; j < 10; j++) {
+                System.out.print("\t" + i * j);
+
+            }
+            System.out.println("");
         }
-        System.out.println("");
+
     }
 
 }
