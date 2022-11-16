@@ -5,6 +5,14 @@ body {
 .propiedades1 {
   margin: 50px;
   border: groove blue;
+  margin-top: 0px;
+
+}
+
+#normal{
+  height: 200px;
+  width: 200px;
+  float: left;
 }
 
 .propiedades2 {
@@ -12,9 +20,13 @@ body {
   border: dotted red;
 }
 
-.propiedades1 span{
-    color: red;
+.propiedades1 span {
+  color: red;
 }
-.propiedades2 span{
-    color: blue;
+.propiedades2 span {
+  color: blue;
 }
+img{
+  position: absolute;
+}
+
