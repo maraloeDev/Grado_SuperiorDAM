@@ -9,9 +9,9 @@ h1,h2,h3{
     background-color: red;
 }
 .blue{
-    color: blue
+    color: yellow
 }
 
-a:visited{
+a:hover{
     color: red;
 }
