@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class FormateoFechas3 {
+public class FechasPlantilla {
     
     public static void main(String[] args) {
         SimpleDateFormat sdf = new SimpleDateFormat();

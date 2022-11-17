@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /*Programa que pida al usuario su fecha de nacimiento
 y le diga Felicidades!!! si es su cumpleaños*/
-public class FormateoFechas2_1 {
+public class FechasCumple_2 {
 
     public static void main(String[] args) {
 

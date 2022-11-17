@@ -36,9 +36,7 @@ public class Ejercicio_5 {
 
                 long milisegundos = hoy.getTime() - fecha.getTime();
                 long dias = milisegundos / 1000 / 60 / 60 / 24;
-                System.out.println("Dias transcurridos desde " df.format(fecha) + " hasta hoy " + dias
-            
-         );
+                System.out.println("Dias transcurridos desde " + df.format(Cadenafecha) + " hasta hoy " + dias);
             
         }
         
