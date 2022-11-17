@@ -1,4 +1,4 @@
-body {
+body,p {
     background-color: black;
 }
 p{
@@ -17,6 +17,6 @@ h1{
 h2{
     color: white;
 }
-a p{
-    text-align: end;
+a{
+    float: right;
 }
