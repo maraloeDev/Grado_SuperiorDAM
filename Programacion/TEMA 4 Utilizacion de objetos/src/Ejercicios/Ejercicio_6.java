@@ -13,20 +13,19 @@ public class Ejercicio_6 {
         Ejemplo : Nº de segundos a partir de hoy : 175000
         Fecha 19/11/2022
     
-    */
+     */
     public static void main(String[] args) {
         
-        Scanner teclado = new Scanner (System.in);
+        Scanner teclado = new Scanner(System.in);
         System.out.print("Numero de segundos a partir de hoy : ");
         
-        long segundos=teclado.nextLong();
+        long segundos = teclado.nextLong();
         Date hoy = new Date();
-        long millisegundos=hoy.getTime() + (segundos*1000);
+        long millisegundos = hoy.getTime() + (segundos * 1000);
         
         Date fecha = new Date(millisegundos);
-        System.out.println(DateFormat.getDateInstance(DateFormat.MEDIUM).format(fecha));
+        System.out.println("Fecha " +DateFormat.getDateInstance(DateFormat.MEDIUM).format(fecha));
         
-
     }
-
+    
 }
