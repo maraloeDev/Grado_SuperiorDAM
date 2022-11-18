@@ -1,6 +1,6 @@
-a:hover{
+a:link{
     color: green;
 }
-a:not():visited{
+a:hover{
     color :red;
 }

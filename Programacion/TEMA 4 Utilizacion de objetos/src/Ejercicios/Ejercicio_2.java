@@ -20,7 +20,7 @@ Introduce cadena "Hola caracola"
 Cadena a buscar la
 n de coincidencias 2 (posiciones 2.10)
  */
-public class Ejercicio2 {
+public class Ejercicio_2 {
 
     public static void main(String[] args) {
 

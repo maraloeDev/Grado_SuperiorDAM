@@ -22,7 +22,7 @@ Introduce una frase Estoy cansadisimo
 Introduce una frase
 
 La frase mas larga introducida ha sido "Estoy cansado"*/
-public class Ejercicio3 {
+public class Ejercicio_3 {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
