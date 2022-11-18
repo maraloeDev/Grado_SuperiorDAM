@@ -7,7 +7,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-public class EjemplosFechas1 {
+public class Fechas1 {
 
     /* Gregoriann Calendar  + calendar*/
     public static void main(String[] args) {

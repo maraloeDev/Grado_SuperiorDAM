@@ -7,7 +7,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Ejercicio_6 {
+public class Ejercicio_6_CalculasSeg {
 
     /*  Programa que a partir de un numero de segundos ( + o -) determine la fecha que representa a partir de hoy 
         Ejemplo : Nº de segundos a partir de hoy : 175000

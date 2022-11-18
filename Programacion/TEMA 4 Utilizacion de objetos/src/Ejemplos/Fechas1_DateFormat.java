@@ -7,7 +7,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class FormateoFechas1 {
+public class Fechas1_DateFormat {
     
     public static void main(String[] args) {
         

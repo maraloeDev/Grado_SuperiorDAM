@@ -5,7 +5,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_4 {
+public class Ejercicio_4_Capicua {
 
     /*Realiza un programa que diga si un numero introducido es capicua */
     public static void main(String[] args) {

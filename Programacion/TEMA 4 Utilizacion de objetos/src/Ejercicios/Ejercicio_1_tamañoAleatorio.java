@@ -19,7 +19,7 @@ import java.util.Random;
  *
  * Palabra generada (tamaño 5) cx12Z
  */
-public class Ejercicio_1 {
+public class Ejercicio_1_tamañoAleatorio {
 
     /*public static void main(String[] args) {
         Random random = new Random();

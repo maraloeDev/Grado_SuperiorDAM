@@ -13,7 +13,7 @@ Ejemplo :
 
 Introduce fecha 01/01/2022
 Han transcurrido hasta hoy 340 dias */
-public class Ejercicio_5 {
+public class Ejercicio_5_Transcurre {
 
     public static void main(String[] args) {
 
