@@ -51,6 +51,11 @@ public class Fechas1_Java8 {
         
         DateTimeFormatter dtf = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL, FormatStyle.MEDIUM);
         System.out.println("Formato Localizado " + dtf.format(navidad));
+        
+        
+        
+        DateTimeFormatter dtfPattern = DateTimeFormatter.ofPattern("dd-MMMM-yyyy");
+        System.out.println(dtfPattern.format(navidad));
 
     }
 
