@@ -7,29 +7,28 @@ import java.util.Scanner;
 
 /**
  *
- * @author maraloed
+ * @author Eduardo Martin-Sonseca
  */
 public class Ejercicio_2_Invertir {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        System.out.println("Cadena original : ");
+        String cadena = teclado.nextLine();
+        String invertido = "";
 
-        System.out.print("Cadena original :");
-        String cadena1 = teclado.nextLine();
+        for (int i = 0; i < cadena.length(); i++) {
+            char caract = cadena.charAt(i);
 
-        String inverso = "";
-
-        for (int i = 0; i < cadena1.length(); i++) {
-            char caracter = cadena1.charAt(i);
-
-            if (Character.isLowerCase(caracter)) {
-                inverso = inverso + Character.toUpperCase(caracter);
+            if (Character.isUpperCase(caract)) {
+                invertido = invertido + Character.toLowerCase(caract);
             } else {
-                inverso = inverso + Character.toLowerCase(caracter);
+                invertido = invertido + Character.toUpperCase(caract);
             }
 
         }
-        System.out.println(inverso);
+        System.out.println(invertido);
+
     }
 
 }

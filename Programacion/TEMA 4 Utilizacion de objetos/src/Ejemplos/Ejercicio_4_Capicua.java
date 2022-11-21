@@ -1,7 +1,7 @@
 /** *****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ***************************************************************************** */
-package Ejercicios;
+package Ejemplos;
 
 import java.util.Scanner;
 
