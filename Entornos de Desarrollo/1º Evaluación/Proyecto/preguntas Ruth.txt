@@ -1,0 +1,3 @@
+ponemos para que se registren los clientes??? en el MockUp??
+Definir ámbito y alcance del proyecto.?
+Descripción del modelo actual (esquema físico)
