@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * *****************************************************************************
- * Copyright (C) EDUARDO MART√çN-SONSECA (maraloeDev)
+ * Copyright (C) EDUARDO MARTÕN-SONSECA (maraloeDev)
  * ****************************************************************************
  */
 /**
@@ -14,93 +14,60 @@ public class Juego_De_Los_Dados {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        /*************** ALEATORIO Y TOTAL DE LA MAQUINA*//******/
+int dado1_Maquina= ((int) (Math.random() * 5)); 
+int dado2_Maquina= ((int) (Math.random() * 5));
+int totalPuntos_M=dado1_Maquina + dado2_Maquina;
+
+//int tpm= ((int) (Math.random() * 5))+ ((int) (Math.random() * 5));
+
+/*************** ALEATORIO Y TOTAL DEL JUGADOR*//******/
+int dado1_Jugador= ((int) (Math.random() * 5));
+int dado2_jugador= ((int) (Math.random() * 5));
+int totalPuntos_J=dado1_Jugador + dado2_jugador;
+//int tpj= ((int) (Math.random() * 5))+ ((int) (Math.random() * 5));
 
         int banca = 0;
         int bote_Maquina = 100;
         int bote_Jugador = 100;
+        int punto=0 ;
 
         System.out.println("************************************\n"
                 + "Juego de los dados\n"
                 + "************************************");
 
-        System.out.print("¬øTe atreves a jugar contra m√≠? (S/N):");
-        char respuesta = teclado.next().charAt(0);
+        System.out.print("øTe atreves a jugar contra mÌ? (S/N):");
+        char respuesta = teclado.nextLine().charAt(0);
 
         while (respuesta != 'S' && respuesta != 's' && respuesta != 'N' && respuesta != 'n') {
             System.out.println("Lo siento, no te he entendido bien, podrias repetirlo");
-            System.out.println("¬øTe atreves a jugar contra m√≠? (S/N):");
+            System.out.println("øTe atreves a jugar contra mÌ? (S/N):");
             respuesta = teclado.next().charAt(0);
         }
+        System.out.println("-----------------------------------------");
         System.out.println("Banca: " + banca + " euros" + "\n"
-                + "Bote M√°quina: " + bote_Maquina + " euros" + "\n"
+                + "Bote M·quina: " + bote_Maquina + " euros" + "\n"
                 + "Bote Jugador: " + bote_Jugador + " euros");
-        
 
+        System.out.println("Empieza la partida el que saque mas puntos...");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        int dado_1_maquina = (int)(Math.random() *5) + 1;
+        System.out.println("Puntos del jugador : " + totalPuntos_J);
+        System.out.println("Puntos de la maquina : " + totalPuntos_M);
+        System.out.println("Empiezas");
+        System.out.println("");
+        System.out.println("Juegas...");
+        System.out.println("Tirada de salida : " + punto );
+        System.out.print("Punto : " + punto);
         
         
-//        int dado_2_maquina = (int)(Math.random() *5) + 1;
-        //   System.out.println((int) (Math.random() * 5) + 1 + ((int) (Math.random() * 5) + 1));
-        //   System.out.println(sumaDados_Maquina);
-        //char respuesta = 'S';
-//        do { //Realizaci√≥n del bucle do while para que cuando diga S
-//            
-//            
-//
-//            
-//                    + "¬øTe atreves a jugar contra m√≠? (S/N):");
-//
-//            respuesta = teclado.next().charAt(0);
-//
-//        } while (respuesta == 'S');
-//        
-//        while(respuesta!='S' || respuesta!='s' || respuesta!='N' || respuesta!='n'){
-//            System.out.println("Lo siento, no te he entendido bien, podrias repetirlo");
-//            System.out.println("¬øTe atreves a jugar contra m√≠? (S/N):");
-//            respuesta=teclado.next().charAt(0);
-//            
-//        }
-//
-//        System.out.print("Banca: \n " + banca + "\n"
-//                + "Bote Maquina: \n" + bote_Maquina + "\n"
-//                + "Bote Jugador: " + bote_Jugador);
+        if (totalPuntos_J == 7 || totalPuntos_J == 11){
+            System.out.println("Enhorabuena. Has ganado!!!");
+            
+        } else if (totalPuntos_J ==2 || totalPuntos_J == 3 || totalPuntos_J == 12){
+            System.out.println("Lo siento, has perdido");
+        } else if (totalPuntos_J == 4 || totalPuntos_J == 5 || totalPuntos_J == 6 || totalPuntos_J == 8 || totalPuntos_J == 9 || totalPuntos_J == 10){
+            punto = totalPuntos_J;
+        }
     }
 
 }
