@@ -10,7 +10,7 @@ C (CodC)(PK);
 
 G (CodG(PK));
 
-E(CodE(PK),atributo3);
+E(CodE(PK),atributo3,atributo6); --En el atribito 6 se puede podria añadir un atributo discriminante
 
 F(CodF(PK));
 
@@ -27,4 +27,4 @@ BEG ( CodB + CodG + codE(PK),atibuto3,atributo5);
 
 ISA ( CodE(PK),atributo3,atributo6);
 
-E2F (CodF(PK);
+E2F (CodF + CodE2(PK);
