@@ -3,6 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 import javax.naming.ldap.Rdn;
 //CAMBIAR LOS DO POR IF
+
 /**
  * *****************************************************************************
  * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
@@ -53,82 +54,75 @@ public class JuegosDeLosDados {
 
             System.out.println("Empieza la partida el que saque más puntos");
 
+            //Tirada de salida
+            System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
+                    + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
+
+            //Si gana la maquina, vuelve a tirar
+            if (suma_Dados_Maquina > suma_Dados_Jugador) {
+                suma_Dados_Maquina = rndm.nextInt(1, 7)
+                        + rndm.nextInt(1, 7);
+
+                suma_Dados_Jugador = rndm.nextInt(1, 7)
+                        + rndm.nextInt(1, 7);
+
+                System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
+                        + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
+
+                System.out.println("Empieza la maquina");
+                System.out.println("Lo siento. He ganado");
+
+                System.out.println("Banca: " + (banca + 15) + " euros"
+                        + "\n" + "Bote Máquina: " + (boteMaquina + 15) + " euros"
+                        + "\n" + "Bote Jugador: " + (boteJugador - 15) + " euros");
+
+                System.out.println("Continuamos jugando (S/N):");
+                respuesta = teclado.next().toUpperCase().trim().charAt(0);
+
+            } else if (suma_Dados_Maquina > suma_Dados_Jugador) {
+
+                //Si gana el jugador, vuelve a tirar
+                suma_Dados_Maquina = rndm.nextInt(1, 7)
+                        + rndm.nextInt(1, 7);
+
+                suma_Dados_Jugador = rndm.nextInt(1, 7)
+                        + rndm.nextInt(1, 7);
+
+                System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
+                        + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
+
+                System.out.println("Empieza la Maquina");
+                System.out.println("Enhorabuena. Has ganado");
+
+                System.out.println("Banca: " + (banca + 15) + " euros"
+                        + "\n" + "Bote Máquina: " + (boteMaquina - 15) + " euros"
+                        + "\n" + "Bote Jugador: " + (boteJugador + 15) + " euros");
+
+                System.out.println("Continuamos jugando (S/N):");
+                respuesta = teclado.next().toUpperCase().trim().charAt(0);
+
+            } else if (suma_Dados_Maquina == suma_Dados_Jugador) {
+
+                suma_Dados_Maquina = rndm.nextInt(1, 7)
+                        + rndm.nextInt(1, 7);
+
+                suma_Dados_Jugador = rndm.nextInt(1, 7)
+                        + rndm.nextInt(1, 7);
+
+                System.out.println("EMPATE!!");
+
+                System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
+                        + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
+
+                System.out.println("Banca: " + (banca + 15) + " euros"
+                        + "\n" + "Bote Máquina: " + (boteMaquina + 15) + " euros"
+                        + "\n" + "Bote Jugador: " + (boteJugador - 15) + " euros");
+
+                System.out.println("Continuamos jugando (S/N):");
+                respuesta = teclado.next().toUpperCase().trim().charAt(0);
+            }
         } while (respuesta == 'S');
 
-        //Tirada de salida
-        System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
-                + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
-
-        //Si gana la maquina, vuelve a tirar
-        do {
-            suma_Dados_Maquina = rndm.nextInt(1, 7)
-                    + rndm.nextInt(1, 7);
-
-            suma_Dados_Jugador = rndm.nextInt(1, 7)
-                    + rndm.nextInt(1, 7);
-
-            System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
-                    + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
-
-            System.out.println("Empieza la maquina");
-            System.out.println("Lo siento. He ganado");
-
-            System.out.println("Banca: " + (banca + 15) + " euros"
-                    + "\n" + "Bote Máquina: " + (boteMaquina + 15) + " euros"
-                    + "\n" + "Bote Jugador: " + (boteJugador - 15) + " euros");
-
-            System.out.println("Continuamos jugando (S/N):");
-            respuesta = teclado.next().toUpperCase().trim().charAt(0);
-
-        } while (suma_Dados_Maquina > suma_Dados_Jugador);
-
-        //Si gana el jugador, vuelve a tirar
-        do {
-            suma_Dados_Maquina = rndm.nextInt(1, 7)
-                    + rndm.nextInt(1, 7);
-
-            suma_Dados_Jugador = rndm.nextInt(1, 7)
-                    + rndm.nextInt(1, 7);
-
-            System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
-                    + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
-
-            System.out.println("Empieza la Maquina");
-            System.out.println("Enhorabuena. Has ganado");
-
-            System.out.println("Banca: " + (banca + 15) + " euros"
-                    + "\n" + "Bote Máquina: " + (boteMaquina - 15) + " euros"
-                    + "\n" + "Bote Jugador: " + (boteJugador + 15) + " euros");
-
-            System.out.println("Continuamos jugando (S/N):");
-            respuesta = teclado.next().toUpperCase().trim().charAt(0);
-
-        } while (suma_Dados_Maquina > suma_Dados_Jugador);
-
-        //Si quedan empate
-        do {
-            suma_Dados_Maquina = rndm.nextInt(1, 7)
-                    + rndm.nextInt(1, 7);
-
-            suma_Dados_Jugador = rndm.nextInt(1, 7)
-                    + rndm.nextInt(1, 7);
-
-            System.out.println("EMPATE!!");
-
-            System.out.println("Puntos Jugador:\n" + suma_Dados_Jugador
-                    + "\n" + "Puntos Maquina: " + suma_Dados_Maquina);
-
-            System.out.println("Banca: " + (banca + 15) + " euros"
-                    + "\n" + "Bote Máquina: " + (boteMaquina + 15) + " euros"
-                    + "\n" + "Bote Jugador: " + (boteJugador - 15) + " euros");
-
-            System.out.println("Continuamos jugando (S/N):");
-            respuesta = teclado.next().toUpperCase().trim().charAt(0);
-
-        } while (suma_Dados_Maquina == suma_Dados_Jugador);
-
         System.out.println("GRACIAS POR JUGAR CONMIGO!!");
-
     }
-
 }
