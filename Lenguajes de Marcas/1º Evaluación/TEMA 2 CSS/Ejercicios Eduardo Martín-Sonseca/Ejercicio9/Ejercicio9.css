@@ -10,7 +10,6 @@ div.azul{
     margin-left: 5%;
     margin-right: 5%;
     float: left;
-    position: static;
 }
 div.amarillo{
     background-color: yellow;
@@ -19,7 +18,6 @@ div.amarillo{
     margin-left: 5%;
     margin-right: 5%;
     float:left;
-    position: static;
 }
 
 div.verde{
@@ -30,5 +28,4 @@ div.verde{
     margin-right: 5%;
     margin-top: 10%;
     float:left;
-    position: static;
 }
