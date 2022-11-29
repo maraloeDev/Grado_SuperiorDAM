@@ -31,13 +31,29 @@ public class Practca_1_Juego_De_Dados {
         int banca = 0;
         int bote_Maquina = 100;
         int bote_Jugador = 100;
-        boolean empieza = true;
+        boolean turno = true;
         int punto = 0;
 
         System.out.println("Banca: " + banca + "\n"
                 + "Bote Maquina: " + bote_Maquina + "\n"
                 + "Bote Jugador: " + bote_Jugador + "\n"
                 + "Empieza la partida el que saque mas puntos...");
+                //Si quedan empate, vuelven los 2 jugadores a tirar
+        do {
+
+            dados_Jugador = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
+            dados_Maquina = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
+
+            System.out.println("Puntos Jugador " + dados_Jugador);
+            System.out.println("Puntos Maquina " + dados_Maquina);
+            if (dados_Jugador == dados_Maquina) {
+                System.out.println("EMPATE, volvemos a tirar");
+
+            }
+
+            turno = dados_Jugador > dados_Maquina;
+
+        } while (dados_Jugador == dados_Maquina);
 
         System.out.println("--------------------------------------------------");
 
@@ -57,10 +73,10 @@ public class Practca_1_Juego_De_Dados {
 
             } else if (dados_Jugador == 2 || dados_Jugador == 3 || dados_Jugador == 12) {
                 System.out.println("Lo siento has perdido");
-                
+
             } else if (dados_Jugador == 4 || dados_Jugador == 5 || dados_Jugador == 6
                     || dados_Jugador == 8 || dados_Jugador == 9 || dados_Jugador == 10) {
-                
+
                 punto = dados_Jugador;
             }
 
@@ -68,6 +84,7 @@ public class Practca_1_Juego_De_Dados {
             System.out.println("Tirada para el punto: " + punto);
 
         }
+        
     }
 
 }
