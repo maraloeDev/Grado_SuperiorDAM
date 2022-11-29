@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Caballos {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Scanner teclado = new Scanner(System.in);
 
@@ -47,6 +47,7 @@ public class Caballos {
             } else if (caballo2.length() == contador) {
                 System.out.println("Ha ganado el caballo 2");
             }
+            Thread.sleep(500);
 
         } while (caballo1.length() < contador && caballo2.length() < contador);
     }
