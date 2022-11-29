@@ -49,7 +49,7 @@ public class Caballos {
             }
             Thread.sleep(500);
 
-        } while (caballo1.length() < contador && caballo2.length() < contador);
+        } while ((caballo1.length() < contador) && (caballo2.length() < contador));
     }
 
 }
