@@ -38,7 +38,7 @@ public class Practca_1_Juego_De_Dados {
                 + "Bote Maquina: " + bote_Maquina + "\n"
                 + "Bote Jugador: " + bote_Jugador + "\n"
                 + "Empieza la partida el que saque mas puntos...");
-                //Si quedan empate, vuelven los 2 jugadores a tirar
+        //Si quedan empate, vuelven los 2 jugadores a tirar los dados
         do {
 
             dados_Jugador = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
@@ -47,13 +47,15 @@ public class Practca_1_Juego_De_Dados {
             System.out.println("Puntos Jugador " + dados_Jugador);
             System.out.println("Puntos Maquina " + dados_Maquina);
             if (dados_Jugador == dados_Maquina) {
-                System.out.println("EMPATE, volvemos a tirar");
+                System.out.println("EMPATE, volvamos a tirar");
 
             }
 
             turno = dados_Jugador > dados_Maquina;
 
         } while (dados_Jugador == dados_Maquina);
+        //Mientras que los puntos del jugador sea igual a la de a maquina, 
+        //Se vuelve a jugar
 
         System.out.println("--------------------------------------------------");
 
@@ -63,13 +65,16 @@ public class Practca_1_Juego_De_Dados {
         //EMPIEZA EL JUGADOR
         if (dados_Jugador > dados_Maquina) {
 
-            System.out.println("Empiezas...");
+            System.out.println("EMPIEZA EL JUGADOR...");
             System.out.println("");
 
             System.out.println("Juegas...");
 
             if (dados_Jugador == 7 || dados_Jugador == 11) {
                 System.out.println("Enhorabuena. Has ganado!!!");
+                System.out.println("Banca: \n" + banca
+                        + "Bote Máquina:  \n" + (bote_Maquina - 15)
+                        + "Bote Jugador: " + bote_Jugador);
 
             } else if (dados_Jugador == 2 || dados_Jugador == 3 || dados_Jugador == 12) {
                 System.out.println("Lo siento has perdido");
@@ -78,13 +83,15 @@ public class Practca_1_Juego_De_Dados {
                     || dados_Jugador == 8 || dados_Jugador == 9 || dados_Jugador == 10) {
 
                 punto = dados_Jugador;
+            } else if (dados_Jugador== punto || dados_Jugador==7){
+                System.out.println("Enhorabuena. Has ganado!!!");
             }
 
             System.out.println("Tirada de salida : " + punto + "\t" + "Punto: " + punto);
             System.out.println("Tirada para el punto: " + punto);
 
         }
-        
+
     }
 
 }
