@@ -1,6 +1,7 @@
 package Practica;
 
-
+import java.text.DateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -9,13 +10,14 @@ import java.util.Scanner;
  * ****************************************************************************
  */
 /**
- *
  * @author maraloed
  */
 public class Practica_1_Juego_De_Dados {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        DateFormat df = DateFormat.getInstance();
+        Date hoy = new Date();
 
         int banca = 0;
         int bote_Maquina = 100;
@@ -23,11 +25,13 @@ public class Practica_1_Juego_De_Dados {
         boolean turno = true; //Si es true empieza el jugador, en caso contrario la maquina
         boolean resultado = true; //Si es true hay un resultado y en caso contario, no lo hay
         int punto = 0;
+        int historial = 0; //Almacenamiento de las veces jugadas
 
+        System.out.println("Formato por defecto (short): " + df.format(hoy));
         System.out.print("************************************\n"
                 + "Juego de los dados\n"
                 + "************************************\n"
-                + "�Te atreves a jugar contra m�? (S/N):");
+                + "ï¿½Te atreves a jugar contra mï¿½? (S/N):");
 
         char respuesta = teclado.next().toUpperCase().trim().charAt(0);
 
@@ -103,7 +107,7 @@ public class Practica_1_Juego_De_Dados {
 
                 }
                 System.out.println("Banca: " + banca + "\n"
-                        + "Bote M�quina: " + (bote_Maquina) + "\n"
+                        + "Bote Maquina: " + (bote_Maquina) + "\n"
                         + "Bote Jugador: " + (bote_Jugador));
 
             } while (turno);
@@ -119,8 +123,10 @@ public class Practica_1_Juego_De_Dados {
                     System.out.println("Juego...");
                     //tirada se salida
                     System.out.print("Tirada de salida : " + dados_Maquina);
+                    System.out.println("");
                     if (dados_Maquina == 7 || dados_Maquina == 11) {
-                        System.out.println("SUIIIIIIIIIIII HE GANADO!!!");
+
+                        System.out.println("SIIUUUUUUUUUUUUU HE GANADO!!!");
                         bote_Maquina = bote_Maquina + 15;
                         bote_Jugador = bote_Jugador - 15;
 
@@ -155,16 +161,19 @@ public class Practica_1_Juego_De_Dados {
 
                 }
                 System.out.println("Banca: " + banca + "\n"
-                        + "Bote M�quina: " + (bote_Maquina) + "\n"
+                        + "Bote Mï¿½quina: " + (bote_Maquina) + "\n"
                         + "Bote Jugador: " + (bote_Jugador));
 
+                historial++;
             } while (turno);
 
             System.out.println("Continuamos jugando (S o N) ");
             respuesta = teclado.next().toUpperCase().trim().charAt(0);
 
         } while (respuesta == 'S' && bote_Jugador >= 15 && bote_Maquina >= 15);
+
         System.out.println("GRACIAS POR JUGAR CONMIGO!!!");
+        System.out.println("Has jugado un total de " + historial + " veces");
 
     }
 }

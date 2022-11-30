@@ -1,0 +1,18 @@
+-d
+"C:\\Users\\marti\\OneDrive\\Grado_SuperiorDAM\\Programacion\\1ra Evaluación\\Practica\\build\\classes"
+-classpath
+"C:\\Users\\marti\\OneDrive\\Grado_SuperiorDAM\\Programacion\\1ra Evaluación\\Practica\\build\\classes"
+-sourcepath
+"C:\\Users\\marti\\OneDrive\\Grado_SuperiorDAM\\Programacion\\1ra Evaluación\\Practica\\src"
+-target
+18
+-encoding
+ISO-2022-JP-2
+-g
+-processorpath
+"C:\\Users\\marti\\OneDrive\\Grado_SuperiorDAM\\Programacion\\1ra Evaluación\\Practica\\build\\empty"
+-s
+"C:\\Users\\marti\\OneDrive\\Grado_SuperiorDAM\\Programacion\\1ra Evaluación\\Practica\\build\\generated-sources\\ap-source-output"
+-source
+18
+"C:\\Users\\marti\\OneDrive\\Grado_SuperiorDAM\\Programacion\\1ra Evaluación\\Practica\\src\\Practica\\Practica_1_Juego_De_Dados.java"
