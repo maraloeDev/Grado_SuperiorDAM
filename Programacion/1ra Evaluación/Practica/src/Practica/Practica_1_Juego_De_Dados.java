@@ -2,6 +2,7 @@ package Practica;
 
 import java.text.DateFormat;
 import java.util.Date;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -17,30 +18,39 @@ public class Practica_1_Juego_De_Dados {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         DateFormat df = DateFormat.getInstance();
-        Date hoy = new Date();
+        Random rndm = new Random(); //Creacion del objeto Random para la generación de los dados
 
-        int banca = 0;
-        int bote_Maquina = 100;
-        int bote_Jugador = 100;
+        int banca = 0; //Banca inicial, se actualizara mientras pierda un jugador
+        int bote_Maquina = 100; //Bote inicial del maquina, se ira actualizando mientras gane o pierda
+        int bote_Jugador = 100; //Bote inicial del jugador, se ira actualizando mientras gane o pierda
         boolean turno = true; //Si es true empieza el jugador, en caso contrario la maquina
         boolean resultado = true; //Si es true hay un resultado y en caso contario, no lo hay
         int punto = 0;
         int historial = 0; //Almacenamiento de las veces jugadas
 
-        System.out.println("Formato por defecto (short): " + df.format(hoy));
+
         System.out.print("************************************\n"
                 + "Juego de los dados\n"
                 + "************************************\n"
-                + "ï¿½Te atreves a jugar contra mï¿½? (S/N):");
+                + "Te atreves a jugar contra mi (S/N):");
 
         char respuesta = teclado.next().toUpperCase().trim().charAt(0);
+        
+        while (respuesta!='S' || respuesta!='N'){ 
+//Si la respuesta es distinta a S o N, se vuelve a repetir
+            System.out.println("Lo siento, no lo he entendido");
+            System.out.println("Podrias repetirlo");
+            respuesta = teclado.next().toUpperCase().trim().charAt(0);
+        }
 
         int dados_Jugador;
         int dados_Maquina;
 
-        do { //turnos
-            dados_Jugador = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
-            dados_Maquina = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
+        do { //ucle repetitivo hasta que desempata uno
+           
+
+            dados_Jugador = rndm.nextInt(1,6) + rndm.nextInt(1,6);
+            dados_Maquina = rndm.nextInt(1,6) + rndm.nextInt(1,6);
 
             turno = dados_Jugador > dados_Maquina; // Comprobacion de los turnos
             if (dados_Jugador == dados_Maquina) {
@@ -60,9 +70,11 @@ public class Practica_1_Juego_De_Dados {
         //Se vuelve a tirar
 
         do {
+            
+
             do {
                 //EMPIEZA EL JUGADOR
-                if (turno == true) {
+                if (turno == true) { //Bandera en la que si es true, le toca al jugador
                     dados_Jugador = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
 
                     System.out.println("EMPIEZA EL JUGADOR...");
@@ -71,6 +83,8 @@ public class Practica_1_Juego_De_Dados {
                     System.out.println("Juegas...");
                     //tirada se salida
                     System.out.print("Tirada de salida : " + dados_Jugador);
+                    
+                    //Si al jugador le tocan los siguientes dados, pasa lo siguiente
                     if (dados_Jugador == 7 || dados_Jugador == 11) {
                         System.out.println("Enhorabuena. Has ganado!!!");
                         bote_Maquina = bote_Maquina - 15;
@@ -82,13 +96,15 @@ public class Practica_1_Juego_De_Dados {
                     } else {
                         System.out.println("\tPunto:" + dados_Jugador);
 
-                        do {
+                        do { //Bucle en el cual se almacena el punto del jugador
                             resultado = true;
                             punto = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
                             System.out.println("Tirada para el punto: " + punto);
                             if (punto == 7) {
                                 System.out.println("Has perdido");
+                                //En este caso cambio la bandera a false debido a que ha perdido
                                 turno = false;
+                                
                                 banca = banca + 15;
                                 bote_Jugador = bote_Jugador - 15;
 
@@ -98,10 +114,11 @@ public class Practica_1_Juego_De_Dados {
                                 bote_Jugador = bote_Jugador + 15;
 
                             } else {
+                                //Si el punto es diferente al que ha sacado el jugador, le tocca a la maquina
                                 resultado = false;
 
                             }
-                        } while (resultado == false);
+                        } while (resultado == false); 
 
                     }
 
@@ -110,11 +127,11 @@ public class Practica_1_Juego_De_Dados {
                         + "Bote Maquina: " + (bote_Maquina) + "\n"
                         + "Bote Jugador: " + (bote_Jugador));
 
-            } while (turno);
+            } while (turno); //Mientras que el turno sea true se vuelve a repetir
 
             do {
                 //EMPIEZA LA MAQUINA
-                if (turno == false) {
+                if (turno == false) { 
                     dados_Maquina = (int) (Math.random() * 6) + 1 + (int) (Math.random() * 6) + 1;
 
                     System.out.println("EMPIEZA LA MAQUINA...");
@@ -166,11 +183,12 @@ public class Practica_1_Juego_De_Dados {
 
                 historial++;
             } while (turno);
-
+            
             System.out.println("Continuamos jugando (S o N) ");
             respuesta = teclado.next().toUpperCase().trim().charAt(0);
 
-        } while (respuesta == 'S' && bote_Jugador >= 15 && bote_Maquina >= 15);
+        } while (respuesta == 'S' && bote_Jugador >= 15 && bote_Maquina >= 15); 
+        //Si la respuesta es S,, o el bite del jugador o de la maquina es menor o igual que 15, se acaba el juego
 
         System.out.println("GRACIAS POR JUGAR CONMIGO!!!");
         System.out.println("Has jugado un total de " + historial + " veces");
