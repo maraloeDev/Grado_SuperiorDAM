@@ -1,0 +1,48 @@
+div>p:nth-child(even) {
+  text-align: center;
+  background-color: gray;
+  border-style: dashed;
+  margin-left: 35%;
+  margin-right: 35%;
+  line-height: 300%;
+}
+
+div>p:nth-child(odd) {
+  text-align: center;
+  border-style: dashed;
+  margin-left: 35%;
+  margin-right: 35%;
+  line-height: 300%;
+}
+ol li{
+  list-style: none;
+    display: inline-block;
+}
+li.princi{
+    float: right;
+    text-decoration: underline red solid;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+}
+li.princi:hover{
+    background-color: black;
+    text-decoration: underline red solid;
+    color: red;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+}
+li.ulti{
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+}
+li.ulti:hover{
+    background-color: black;
+    text-decoration: underline red solid;
+    color: red;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+}
