@@ -5,6 +5,10 @@ div>p:nth-child(even) {
   margin-left: 35%;
   margin-right: 35%;
   line-height: 300%;
+  padding: 0%;
+  line-height: 500px;
+  top: 0%;
+  display: block;
 }
 
 div>p:nth-child(odd) {
@@ -13,6 +17,10 @@ div>p:nth-child(odd) {
   margin-left: 35%;
   margin-right: 35%;
   line-height: 300%;
+  padding: 0%;
+  line-height: 500px;
+  top: 0%;
+  display: block;
 }
 ol li{
   list-style: none;
