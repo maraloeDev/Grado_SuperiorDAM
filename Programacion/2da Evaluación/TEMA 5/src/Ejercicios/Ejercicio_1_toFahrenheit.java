@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author maraloed
  */
-public class toFahrenheit {
+public class Ejercicio_1_toFahrenheit {
 
     static Scanner teclado = new Scanner(System.in);
     static float celsius;
