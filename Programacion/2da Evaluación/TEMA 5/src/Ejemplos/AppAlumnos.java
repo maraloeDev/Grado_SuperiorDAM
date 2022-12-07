@@ -43,6 +43,7 @@ public class AppAlumnos {
         System.out.println(alum1.getFecha_nacimiento());
         System.out.println("----------------------------------");
         mostrarAlumno(alum1);
+        System.out.println(alum1.getNombre());
 
     }
     
