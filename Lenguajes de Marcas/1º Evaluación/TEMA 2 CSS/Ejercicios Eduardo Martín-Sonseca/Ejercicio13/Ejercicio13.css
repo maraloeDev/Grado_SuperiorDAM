@@ -1,0 +1,20 @@
+ol{
+    margin-top: 0px;
+    position: fixed;
+    background-color: yellow;
+    top: 0%;
+    left: 0px;
+    width: 10%;
+    height: 100%;
+    padding-left: 0;
+    
+}
+ol li{
+    background-color: yellow;
+    margin-top: 50%;
+
+    
+}
+p{
+    margin-left: 10%;
+}
