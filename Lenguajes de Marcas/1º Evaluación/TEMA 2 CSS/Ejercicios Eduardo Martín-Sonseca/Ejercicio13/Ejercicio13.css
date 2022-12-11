@@ -1,20 +1,30 @@
-ol{
-    margin-top: 0px;
+div{
     position: fixed;
-    background-color: yellow;
+    background-color: black;
+    color: white;
+    padding: 0%;
     top: 0%;
-    left: 0px;
-    width: 10%;
+    left: 0%;
     height: 100%;
-    padding-left: 0;
-    
+    width: 10%;
+    line-height: 100px;
 }
-ol li{
-    background-color: yellow;
-    margin-top: 50%;
+li:hover{
+    background-color: green;
+    color: white;
+    list-style: none;
+}
 
-    
+ul{
+    list-style: none;
 }
 p{
     margin-left: 10%;
+}
+
+a{
+    text-decoration: white none;
+}
+a:hover{
+    color: white;
 }
