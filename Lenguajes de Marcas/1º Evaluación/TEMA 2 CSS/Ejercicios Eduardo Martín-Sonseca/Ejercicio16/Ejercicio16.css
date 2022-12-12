@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+li:hover{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: red;
+    background-image: url(./Coche.png);
+}

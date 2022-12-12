@@ -1,0 +1,10 @@
+ul{
+    list-style-type: none;
+    background-color: gainsboro;
+    margin-right: 94%;
+    padding: 0%;
+    border: solid black;
+}
+li{
+    color: black;
+}
