@@ -1,0 +1,20 @@
+body {
+  margin-top: 20%;
+  background-color: cornflowerblue;
+  
+}
+
+div {
+  border: solid;
+  width: 30%;
+  margin-left: 20%; 
+}
+
+input {
+  margin-left: 40%;
+  width: 20%;
+  margin-left: 20 !important;
+}
+.boton {
+  width: 20%;
+}
