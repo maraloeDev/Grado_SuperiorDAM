@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36e558ba-c179-4f27-93b9-289cebb650f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/TEMA1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejemplos/PrimeraClase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_1_AdiosMundo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_2_Saludo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_3_MisDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_4_Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_5_Numeros2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_7_Inicial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/TEMA1-Ejercicios.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Teoria/TEMA1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMA2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/Categorias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/Conversiones_Tipos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/Operadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/OperadoresLogicos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/OperadoresLogicos_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/Operadores_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/Tipos_Datos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplos/Trabajo_Caracteres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_1_GetASCIICodeFromChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_2_GetCharFromAsciiCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_3_Calculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_4_TablaMultiplicar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_5_PorcentajeNotas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_6_Intercambio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_7_Minutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_8_SentenciaLogica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio_9_DiasDelMes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio__10_Pascua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio__11_Celsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio__12_SistemaEcuaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Ejercicio__13_A_Mayúsculas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/TEMA2-Ejercicios.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teoria/Elementos del Lenguaje Java.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teoria/TEMA2.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Io5koxSR6XhX9g6np44VOOb38i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36e558ba-c179-4f27-93b9-289cebb650f6" name="Changes" comment="" />
+      <created>1670835240989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670835240989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
