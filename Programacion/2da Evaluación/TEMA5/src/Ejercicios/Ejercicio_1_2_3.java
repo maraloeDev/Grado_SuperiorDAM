@@ -37,6 +37,7 @@ public class Ejercicio_1_2_3 {
                 i--;
             }
         }
+        System.out.println(i);
         return numero;
     }
     public static boolean esPar(boolean par) {
@@ -45,6 +46,7 @@ public class Ejercicio_1_2_3 {
 
 
         par= ((numero % 2) == 0);
+        System.out.println(par);
         return par;
     }
 
