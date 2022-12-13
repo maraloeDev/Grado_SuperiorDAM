@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bfeae83-d4d4-42c2-98ce-8f9281f251ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/TEMA1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejemplos/PrimeraClase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_1_AdiosMundo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_2_Saludo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_3_MisDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_4_Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_5_Numeros2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/Ejercicio_7_Inicial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Ejercicios/TEMA1-Ejercicios.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA1/src/Teoria/TEMA1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/TEMA2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/Categorias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/Conversiones_Tipos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/Operadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/OperadoresLogicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/OperadoresLogicos_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/Operadores_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/Tipos_Datos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejemplos/Trabajo_Caracteres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_1_GetASCIICodeFromChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_2_GetCharFromAsciiCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_3_Calculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_4_TablaMultiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_5_PorcentajeNotas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_6_Intercambio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_7_Minutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_8_SentenciaLogica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio_9_DiasDelMes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio__10_Pascua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio__11_Celsius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio__12_SistemaEcuaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/Ejercicio__13_A_Mayúsculas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Ejercicios/TEMA2-Ejercicios.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Teoria/Elementos del Lenguaje Java.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEMA2/src/Teoria/TEMA2.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="9bfeae83-d4d4-42c2-98ce-8f9281f251ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,12 +17,12 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
