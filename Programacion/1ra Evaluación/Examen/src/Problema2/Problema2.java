@@ -23,7 +23,7 @@ public class Problema2 {
             System.out.print("Introduce numero DNI:");
             dni = teclado.next();
 
-        } while (dni.length() != 8 || dni.length() < 8);
+        } while (dni.length() == 8 || dni.length() <= 8);
         String letra = "";
 
         switch ((DNI_numero % 23)) {
