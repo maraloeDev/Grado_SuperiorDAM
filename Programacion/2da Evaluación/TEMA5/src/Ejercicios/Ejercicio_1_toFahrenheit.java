@@ -10,7 +10,7 @@ F = 9 / 5 C + 3 */
 
 import java.util.Scanner;
 
-public class Ejercicio1_toFahrenheit {
+public class Ejercicio_1_toFahrenheit {
 
     public static void toFahrenheit() { //Los metodos no se ejecutan si no hay un metodo main
         Scanner teclado = new Scanner(System.in);
