@@ -1,0 +1,24 @@
+nav{
+    background-color: gray;
+   padding: 0%;
+}
+ul{
+    list-style: none;
+    margin-left: 80%;
+}
+li{
+    display: inline-block;
+    line-height: 10%;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#imagen{
+    margin-left: 20%;
+}
+#sec1,#sec2,#sec3{
+    float: right;
+}
