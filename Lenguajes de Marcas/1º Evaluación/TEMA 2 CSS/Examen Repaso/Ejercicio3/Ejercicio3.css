@@ -1,24 +1,53 @@
-nav{
-    background-color: gray;
-   padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
 }
-ul{
+
+#principal {
+    background: gray;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    float: left;
+    margin: 10px;
     list-style: none;
-    margin-left: 80%;
+    line-height: 60px;
+    vertical-align: middle;
 }
-li{
-    display: inline-block;
-    line-height: 10%;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-}
-a{
+
+a {
     text-decoration: none;
     color: white;
+    display: block;
+    text-transform: uppercase;
 }
-#imagen{
-    margin-left: 20%;
+
+a:hover {
+    background-color: aliceblue;
+    color: black;
 }
-#sec1,#sec2,#sec3{
-    float: right;
+
+article {
+    width: 200px;
+}
+
+section {
+    padding-top: 70px;
+}
+
+#imagen {
+    position: fixed;
+    top: 70px;
+    left: 200px;
 }
