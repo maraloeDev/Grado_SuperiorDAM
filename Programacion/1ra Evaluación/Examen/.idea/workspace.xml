@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee0c0f4-e3e1-428a-b6bf-8776bb283581" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Entornos de Desarrollo/2º Evaluación/Practicas/Manual de usuario Git Client.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos de Desarrollo/2º Evaluación/Practicas/Manual de usuario Git Client.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TEMA4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TEMA4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/Examen.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/build/classes/Problema1/Problema1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/build/classes/Problema2/Problema2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/build/classes/Problema3/Problema3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/Practicaa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/build/classes/PRACTICA/Practica1-Dados.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/build/classes/PRACTICA/Practica_1_Juego_De_Dados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/src/Practica1-Dados.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica/src/Practica_1_Juego_De_Dados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problema2/Problema2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problema2/Problema2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Ir0dQnCyHV36YyqshVNS5aa8yQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,17 +28,51 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programacion/1ra Evaluación/Examen&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/marti/OneDrive/Grado_SuperiorDAM/Programacion/1ra Evaluación/Examen"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maraloed\Documents\GitHub\Grado_SuperiorDAM\Programacion\1ra Evaluación\Examen\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Problema2">
+    <configuration name="Problema1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problema1.Problema1" />
+      <module name="Examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Problema1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problema2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problema2.Problema2" />
+      <module name="Examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Problema2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Problema2" />
+        <item itemvalue="Application.Problema1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
