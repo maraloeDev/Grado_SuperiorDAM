@@ -6,5 +6,5 @@ package Ejercicios;
 
 public class Ejercicio_2_divisor {
 
-    
+
 }
