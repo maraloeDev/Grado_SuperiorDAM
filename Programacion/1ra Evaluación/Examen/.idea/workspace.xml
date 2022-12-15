@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee0c0f4-e3e1-428a-b6bf-8776bb283581" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Entornos de Desarrollo/2º Evaluación/Practicas/Manual de usuario Git Client.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Entornos de Desarrollo/2º Evaluación/Practicas/Manual de usuario Git Client.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problema2/Problema2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problema2/Problema2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problema1/Problema1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problema1/Problema1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/marti/OneDrive/Grado_SuperiorDAM/Programacion/1ra Evaluación/Examen"
+    "last_opened_file_path": "C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programacion/1ra Evaluación/Examen"
   }
 }]]></component>
   <component name="RecentsManager">
