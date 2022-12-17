@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee0c0f4-e3e1-428a-b6bf-8776bb283581" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problema1/Problema1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problema1/Problema1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACADEMIA EXAMEN/Problema1/Problema1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACADEMIA EXAMEN/Problema1/Problema1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACADEMIA EXAMEN/Problema2/Problema2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACADEMIA EXAMEN/Problema2/Problema2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACADEMIA EXAMEN/Problema3/Problema3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACADEMIA EXAMEN/Problema3/Problema3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen Corregido/Problema1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen Corregido/Problema2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examen Corregido/Problema3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +30,13 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programacion/1ra Evaluación/Examen"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maraloed/Documents/GitHub/Grado_SuperiorDAM/Programacion/1ra Evaluación/Examen&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maraloed\Documents\GitHub\Grado_SuperiorDAM\Programacion\1ra Evaluación\Examen\src" />
