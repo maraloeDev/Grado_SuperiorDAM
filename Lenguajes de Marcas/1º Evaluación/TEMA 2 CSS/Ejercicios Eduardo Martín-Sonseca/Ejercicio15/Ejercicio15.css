@@ -1,30 +1,15 @@
 ul{
-    position: fixed;
-    background-color: lightgray;
-    margin-top: 0px;
-    top: 0px;
-    left: 0px;
-    width: 10%;
-    padding-left: 0%;
-
-}
-img{
-    height: 40%;
-    width: 10%;
-    visibility: hidden;
-}
-
-ul>li>a{
-    display: block;
-    height: 30px;
-    line-height: 30px;
-    text-decoration: none;
-    padding-left: 5%;
-}
-ul>li>a:hover{
-    background-color: darkgray;
-    cursor: pointer;
+    list-style: none;
+    width: 200px;
+    border: solid;
+    background-color: gray;
+    font-size: xx-large;
 }
 li:hover{
-    list-style: url(https://puntodis.com/wp-content/uploads/2020/10/flecha-horizontal-azul.jpg);
+    list-style-image: url(./flecha.png);
+   font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

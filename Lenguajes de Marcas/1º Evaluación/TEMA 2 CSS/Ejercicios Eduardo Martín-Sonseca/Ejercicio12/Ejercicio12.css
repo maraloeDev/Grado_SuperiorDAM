@@ -33,8 +33,10 @@ ol{
 ol li {
   list-style: none;
   display: inline-block;
+  position: fixed;
 }
 li.princi {
+  margin-left: 95%;
   float: right;
   text-decoration: underline red solid;
   border-style: solid;
@@ -49,11 +51,13 @@ li.princi:hover {
   border-style: solid;
   width: 100px;
   text-align: center;
+  float: right;
 }
 li.ulti {
   border-style: solid;
   width: 100px;
   text-align: center;
+  top: 0%;
 }
 li.ulti:hover {
   background-color: black;

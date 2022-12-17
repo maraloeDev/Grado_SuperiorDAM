@@ -1,0 +1,9 @@
+ul{
+    list-style: none;
+    line-height: 50px;
+    padding: 0%;
+    position: fixed;
+}
+p{
+    margin-left: 20%;
+}

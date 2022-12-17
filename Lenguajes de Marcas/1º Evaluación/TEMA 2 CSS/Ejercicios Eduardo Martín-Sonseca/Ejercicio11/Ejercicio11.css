@@ -11,6 +11,7 @@ div img{
     display: block;
 }
 div h1{
+    position: absolute;
     margin-left: 60%;
     text-transform: uppercase;
     display: inline-block;
