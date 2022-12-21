@@ -4,58 +4,56 @@
 
 package Ejercicios;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio_4_Areas {
 
     static Scanner teclado = new Scanner(System.in);
 
-    public static double Circulo() { //Metodo que calcula el area de un circulo
+    public static double circulo( double radio) { //Metodo que calcula el area de un circulo
 
         System.out.println("Introduce un radio para el circulo");
-        double radio = teclado.nextDouble();
+        radio = teclado.nextDouble();
 
-        double areaCirculo = (Math.PI * Math.pow(radio, 2));
+        double areaCirculo = (int) (Math.PI * Math.pow(radio, 2));
         return areaCirculo;
     }
 
-    public static double Cuadrado() { //Metodo que calcula el area de un cuadrado
+    public static double cuadrado(double lado) { //Metodo que calcula el area de un cuadrado
 
         System.out.println("Introduce un lado para el cuadrado");
-        double lado = teclado.nextDouble();
+         lado = teclado.nextDouble();
 
-        double areaCuadrado = (Math.pow(lado, lado));
+        double areaCuadrado = (int) (Math.pow(lado, lado));
         return areaCuadrado;
     }
 
-    public static double Rectangulo() { //Metodo que calcula el area de un rectangulo
+    public static double rectangulo(double base, double altura) { //Metodo que calcula el area de un rectangulo
 
         System.out.println("Introduce la base del rectangulo");
-        double base = teclado.nextDouble();
+        base = teclado.nextDouble();
 
         System.out.println("Introduce la altura del rectangulo");
-        double altura = teclado.nextDouble();
+        altura = teclado.nextDouble();
 
-        double areaRectangulo = (base * altura);
+        double areaRectangulo = (int) (base * altura);
         return areaRectangulo;
     }
 
-    public static double Triangulo() { //Metodo que calcula el area de un triangulo
+    public static double triangulo(double base, double altura) { //Metodo que calcula el area de un triangulo
 
         System.out.println("Introduce la base del rectangulo");
-        double base = teclado.nextDouble();
+        base = teclado.nextDouble();
 
         System.out.println("Introduce la altura del rectangulo");
-        double altura = teclado.nextDouble();
+        altura = teclado.nextDouble();
 
-        double areaTriangulo = (base * altura) / 2;
+        double areaTriangulo = (int) (base * altura) / 2;
         return areaTriangulo;
     }
 
     public static void main(String[] args) {
         int eleccion;
-
 
         do {
 
@@ -68,21 +66,21 @@ public class Ejercicio_4_Areas {
 
             switch (eleccion) {
                 case 1:
-                    Circulo();
+                    circulo(5);
                     break;
                 case 2:
-                    Cuadrado();
+                    cuadrado(4);
                     break;
                 case 3:
-                    Rectangulo();
+                    rectangulo(8,4);
                     break;
                 case 4:
-                    Triangulo();
+                    triangulo(4,2);
                     break;
                 default:
                     System.out.println("Ese numero no figura en la lista");
             }
-        } while ((eleccion!=1 || eleccion!=4));
+        } while ((eleccion >=1) );
 
 
     }

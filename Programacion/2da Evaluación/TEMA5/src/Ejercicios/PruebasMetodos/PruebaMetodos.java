@@ -2,7 +2,7 @@
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejercicios;
+package Ejercicios.PruebasMetodos;
 
 public class PruebaMetodos {
 
