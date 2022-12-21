@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Ejercicio_8_MayorDe3 {
 
-    static Scanner teclado = new Scanner(System.in);
+   /* static Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.println("Introduce un numero");
@@ -33,5 +33,19 @@ public class Ejercicio_8_MayorDe3 {
             System.out.println("El numero mayor de los introducidos es el " + numero3);
         }
 
+    }*/
+   public int elMayor(int a, int b){
+       return (a>=b) ? a : b;
+
+   }
+    public int elMayor (int a, int b, int c){
+        int mayorDe2elMayor = elMayor(a, b);
+        return elMayor(mayorDe2elMayor,c);
+    }
+
+    public static void main(String[] args) {
+
+        Ejercicio_8_MayorDe3 app = new Ejercicio_8_MayorDe3();
+        System.out.println(app.elMayor(5,3,28));
     }
 }
