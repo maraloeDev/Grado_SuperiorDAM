@@ -2,9 +2,7 @@
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejercicios;
-
-import java.util.Scanner;
+package Ejercicios.Metodos;
 
 public class Ejercicio_8_MayorDe3 {
 

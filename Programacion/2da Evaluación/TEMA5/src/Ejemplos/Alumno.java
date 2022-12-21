@@ -8,7 +8,6 @@ package Ejemplos;
 import java.time.LocalDate;
 
 /**
- *
  * @author maraloed
  */
 

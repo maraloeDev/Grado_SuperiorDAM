@@ -2,7 +2,7 @@
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejercicios.PruebasMetodos;
+package Ejercicios.Metodos.PruebasMetodos;
 
 /* Escribe un método llamado toFahrenheit que convierta una temperatura dada en grados
 Celsius a grados Fahrenheit. La fórmula de conversión es:

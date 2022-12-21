@@ -2,7 +2,7 @@
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejercicios.PruebasMetodos;
+package Ejercicios.Metodos.PruebasMetodos;
 
 import java.util.Scanner;
 
