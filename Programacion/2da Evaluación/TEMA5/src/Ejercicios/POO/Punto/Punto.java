@@ -2,7 +2,9 @@
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejercicios.POO;
+package Ejercicios.POO.Punto;
+
+import java.awt.*;
 
 public class Punto {
 
@@ -51,14 +53,38 @@ public class Punto {
 
     //Método que desplace el punto actual una distancia dada por los valores recibidos como
     //parámetro para las coordenadas x e y.
-
     public void desplazamiento(double desplazax, double desplazay) {
         x = desplazax + x;
         y = desplazay + y;
     }
-    public void mover(double newX, double nexY){
-        x=newX;
-        y=nexY;
+
+    //Método que mueva el punto actual a la nueva posición dada por las coordenadas
+    //recibidas como parámetro.
+    public void mover(double newX, double nexY) {
+        x = newX;
+        y = nexY;
     }
-    public void distancia
+
+    //Método que calcule la distancia entre el punto actual y un segundo punto recibido como
+    //parámetro
+    public double distancia(Punto otroPuntoX, Punto otroPuntoY) {
+
+        double a = otroPuntoX.x - this.x;
+        double b = otroPuntoY.y - this.y;
+
+        double distanciaNueva = Math.sqrt(Math.pow(a, 2) + (Math.pow(b, 2)));
+        return distanciaNueva;
+    }
+
+    //Método que mueva el punto actual al centro de la pantalla.
+    public void Centro(){
+        Dimension tamanio = Toolkit.getDefaultToolkit().getScreenSize();
+        double centrox= tamanio.width/2;
+        double centroy=tamanio.height/2;
+        x=centrox;
+        y=centroy;
+
+    }
+
+
 }
