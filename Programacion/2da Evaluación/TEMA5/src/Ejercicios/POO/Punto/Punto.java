@@ -67,7 +67,7 @@ public class Punto {
 
     //Método que calcule la distancia entre el punto actual y un segundo punto recibido como
     //parámetro
-    public double distancia(Punto otroPuntoX, Punto otroPuntoY) {
+    public double distancia(int otroPuntoX, int otroPuntoY) {
 
         double a = otroPuntoX.x - this.x;
         double b = otroPuntoY.y - this.y;
