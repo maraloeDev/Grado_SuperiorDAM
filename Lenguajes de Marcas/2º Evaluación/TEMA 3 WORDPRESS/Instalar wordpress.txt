@@ -1,0 +1,10 @@
+Como instalar Wordpress
+ 	1- Creamos una carpeta con el nombre del dominio de la web en \\wamp\www
+	2- Tenemos que crear nuestra BD que estara conectada a wordpress y donde se guardara la informacion de la BD,
+	   para ello, utilizamos wamp > ohomyadmin el cual nos permitira gestionar la BBDD de SQL
+	3- Aqui accederemos a la BD que es donde la crearemos
+
+	4- Los datos de PHP my admin son
+					Nombre de la BBDD
+					Usuario : root
+					Contraseña :

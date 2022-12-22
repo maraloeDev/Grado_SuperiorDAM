@@ -67,13 +67,12 @@ public class Punto {
 
     //Método que calcule la distancia entre el punto actual y un segundo punto recibido como
     //parámetro
-    public double distancia(int otroPuntoX, int otroPuntoY) {
+    public void distancia(double otroPuntoX, double otroPuntoY) {
 
-        double a = otroPuntoX.x - this.x;
-        double b = otroPuntoY.y - this.y;
+        double a = otroPuntoX - this.x;
+        double b = otroPuntoY - this.y;
 
         double distanciaNueva = Math.sqrt(Math.pow(a, 2) + (Math.pow(b, 2)));
-        return distanciaNueva;
     }
 
     //Método que mueva el punto actual al centro de la pantalla.

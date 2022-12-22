@@ -14,13 +14,20 @@ public class PuntoApp {
 
         System.out.println("------------------------------------------");
 
-        p1.distancia(2,3);
+        p1.mover(0,0);
+        System.out.println("El MOVIMIENTO ES " + '\n' + p1);
 
+        p1.desplazamiento(2,-9);
         System.out.println("El DESPLAZAMIENTO ES " + '\n' + p1);
 
         System.out.println("------------------------------------------");
 
         System.out.println("LA DISTANCIA ENTRE X e Y ES " + '\n' + p1 );
+
+        p1.Centro();
+
+        System.out.println("El CENTRO de esta pantalla es " + p1);
+
     }
 
 }
