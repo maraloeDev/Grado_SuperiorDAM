@@ -9,5 +9,9 @@ package Problema1;
  * @author Eduardo Martín-Sonseca
  */
 public class Problema1 {
+
+    public static void main(String[] args) {
+
+    }
     
 }
