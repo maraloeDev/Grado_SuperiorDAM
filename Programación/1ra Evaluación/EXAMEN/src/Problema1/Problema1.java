@@ -10,4 +10,10 @@ package Problema1;
  */
 public class Problema1 {
     
+    public static void main(String[] args) {
+        
+        double aleatorio = (int) (Math.random() *100)+1;
+        
+    }
+    
 }
