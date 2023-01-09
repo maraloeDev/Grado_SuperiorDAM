@@ -1,7 +1,6 @@
-/*******************************************************************************
+/** *****************************************************************************
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
- ******************************************************************************/
-
+ ***************************************************************************** */
 package Ejercicios.POO;
 
 import java.awt.*;
@@ -13,17 +12,20 @@ public class Punto {
     private double y;
 
     //CONSTRUCTORS
-
     public Punto(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
+    public Punto() { //CONSTRUCTOR POR DEFECTO (Los atributos se inicializan a 0)
+        
+        this.x=0.0;
+        this.y=0.0;
+
+    }
     //METHODS GETTER AND SETTER
 
     // Método para recuperar y modificar las propiedades del punto.
-
-
     public double getX() {
         return x;
     }
@@ -42,13 +44,12 @@ public class Punto {
     //toString
     //Método que devuelva el estado del objeto de forma textual, con el formato (x,y)
 
-
     @Override
     public String toString() {
-        return "Punto{" +
-                "x=" + x +
-                ", y=" + y +
-                '}';
+        return "Punto{"
+                + "x=" + x
+                + ", y=" + y
+                + '}';
     }
 
     //Método que desplace el punto actual una distancia dada por los valores recibidos como
@@ -76,14 +77,13 @@ public class Punto {
     }
 
     //Método que mueva el punto actual al centro de la pantalla.
-    public void Centro(){
+    public void Centro() {
         Dimension tamanio = Toolkit.getDefaultToolkit().getScreenSize();
-        double centrox= tamanio.width/2;
-        double centroy=tamanio.height/2;
-        x=centrox;
-        y=centroy;
+        double centrox = tamanio.width / 2;
+        double centroy = tamanio.height / 2;
+        x = centrox;
+        y = centroy;
 
     }
-
 
 }
