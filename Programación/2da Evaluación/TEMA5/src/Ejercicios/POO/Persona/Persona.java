@@ -1,36 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Ejercicios.POO.Persona;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
- * *****************************************************************************
- * Copyright (C) EDUARDO MARTÍN-SONSECA (maraloeDev)
- * ****************************************************************************
- */
-/**
  *
- * @author maraloed
+ * @author marti
  */
 public class Persona {
 
-    static Scanner teclado = new Scanner(System.in);
-    //ATRIBUTTES
+    // ATTRIBUTES
     private String dni;
     private String nombre;
-    private String apellidos;
+    private String apellido;
     private char sexo;
     private LocalDate fechadeNacimiento;
     private int edad;
-    private int altura;
+    private double altura;
     private double peso;
     private boolean casado;
 
-    //CONSTRUCTORES
-    public Persona(String dni, String nombre, String apellidos, char sexo, LocalDate fechadeNacimiento, int edad, int altura, double peso, boolean casado) {
+    //CONSTRUCTORS
+    public Persona(){
+        
+    }
+    public Persona(String dni, String nombre, String apellido, char sexo, LocalDate fechadeNacimiento, int edad, double altura, double peso, boolean casado) {
         this.dni = dni;
         this.nombre = nombre;
-        this.apellidos = apellidos;
+        this.apellido = apellido;
         this.sexo = sexo;
         this.fechadeNacimiento = fechadeNacimiento;
         this.edad = edad;
@@ -38,12 +39,15 @@ public class Persona {
         this.peso = peso;
         this.casado = casado;
     }
+//  GETTER AND SETTER
 
-    //GETTER AND SETTER
-    public String getDni() {
-        return dni;
-    }
-
+//    public String getDni() {
+//        return dni;
+//    }
+//
+//    public void setDni(String dni) {
+//        this.dni = dni;
+//    }
     public String getNombre() {
         return nombre;
     }
@@ -52,12 +56,12 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    public String getApellido() {
+        return apellido;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
     public char getSexo() {
@@ -73,19 +77,21 @@ public class Persona {
     }
 
     public void setFechadeNacimiento(LocalDate fechadeNacimiento) {
-
         this.fechadeNacimiento = fechadeNacimiento;
     }
 
-    public int getEdad() {
-        return edad;
-    }
-
-    public int getAltura() {
+//    public int getEdad() {
+//        return edad;
+//    }
+//
+//    public void setEdad(int edad) {
+//        this.edad = edad;
+//    }
+    public double getAltura() {
         return altura;
     }
 
-    public void setAltura(int altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 
@@ -105,44 +111,27 @@ public class Persona {
         this.casado = casado;
     }
 
-    // Método que devuelva los datos de una persona en formato cadena
+    // Método que devuelva los datos de una persona en formato cadena.
     @Override
     public String toString() {
-        return "Persona{" + "dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + ", sexo=" + sexo + ", fechadeNacimiento=" + fechadeNacimiento + ", edad=" + edad + ", altura=" + altura + ", peso=" + peso + ", casado=" + casado + '}';
-    }
-
-    // La fecha de nacimiento será mostrada con el formato día-mes-año (el mes con tres 
-    // letras). Ejemplo: 27-nov-2014
-    public void fecha_mod() {
-        SimpleDateFormat formato = new SimpleDateFormat("dd/MMM/yyyy");
-        formato.format(this.fechadeNacimiento);
-
-        this.fechadeNacimiento = fechadeNacimiento;
-    }
-    // Para crear una persona, será obligatorio proporcionar un DNI válido, es decir, un número de 8 dígitos.
-
-    public void dniValido() {
-        while (dni.length() < 8) {
-            System.out.println("DNI no valido, vuelva a introducir");
-            dni = teclado.nextLine();
-        }
+        return "Persona{" + "dni=" + dni + ", nombre=" + nombre + ", apellido=" + apellido + ", sexo=" + sexo + ", fechadeNacimiento=" + fechadeNacimiento + ", edad=" + edad + ", altura=" + altura + ", peso=" + peso + ", casado=" + casado + '}';
     }
 
     // Método que calcula la letra del DNI de la Persona
-    public void calcularLetra() {
+    public int calcularLetra(int DNI_numero) {
 
-        dni = "1";
-        int DNI_numero = 1;
+        Scanner teclado = new Scanner(System.in);
+        String dni = "1";
+        DNI_numero = 1;
         do {
             System.out.println("Introduce numero DNI:");
-            dni = teclado.nextLine(); //Pido el numeor mediante un string
+            this.dni=dni;
             DNI_numero = Integer.parseInt(dni);
-            //casteo el numero, por que si no, no pria dividirco con el modulo ( 23)
             if (dni.length() > 8 || dni.length() < 8) {
 
                 System.out.println("Error. El DNI debe tener 8 dígitos");
                 System.out.print("Introduce numero DNI:");
-
+                dni=teclado.nextLine();
             }
 
         } while (dni.length() > 8 || dni.length() < 8);
@@ -217,25 +206,31 @@ public class Persona {
                 break;
 
         }
-
         System.out.println("Letra " + letra);
+        return DNI_numero;
     }
 
     // Método que determina si la persona está en su peso ideal (0,75 * (altura en cm. – 150)
     // + 50). Devuelve un -1 si está por debajo de su peso ideal, un 0 si está en su peso ideal y
-    // un 1 si tiene sobrepeso
-    // Método que devuelve un booleano indicando si la persona es o no mayor de edad
-    public void mayorEdad() {
+    // un 1 si tiene sobrepeso.
+    public double pesoIdeal(double peso) {
+        peso = (0.75 * (this.altura - 150) + 50);
 
-        if (edad > 18) {
-            boolean mayorEdad = true;
-        } else {
-            boolean menorEdad = false;
+        if (peso == -1) {
+            System.out.println("Esta por debajo de su peso ideal");
+        } else if (peso == 0) {
+            System.out.println("Esta en su peso ideal");
+        } else if (peso == 1) {
+            System.out.println(" Usted tiene sobrepeso");
         }
-    }
 
-    // Método que devuelva la edad de la Persona.
-    public void edadPersona() {
-        this.edad = getEdad();
+        this.peso = peso;
+        return peso;
+    }
+    
+    // Método que devuelve un booleano indicando si la persona es o no mayor de edad
+    
+    public boolean isMayorEdad() {
+        return this.edad >= 18;
     }
 }

@@ -2,7 +2,7 @@
  * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
  ******************************************************************************/
 
-package Ejercicios.POO;
+package Ejercicios.POO.Punto;
 
 public class PuntoApp {
 
