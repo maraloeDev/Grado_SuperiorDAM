@@ -25,11 +25,12 @@ public class Persona {
     private boolean casado;
 
     //CONSTRUCTORS
-    public Persona(){
-        
-    }
-    public Persona(String dni, String nombre, String apellido, char sexo, LocalDate fechadeNacimiento, int edad, double altura, double peso, boolean casado) {
+
+    public Persona(String dni) {
         this.dni = dni;
+    }
+
+    public Persona(String nombre, String apellido, char sexo, LocalDate fechadeNacimiento, int edad, double altura, double peso, boolean casado) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.sexo = sexo;
@@ -39,7 +40,10 @@ public class Persona {
         this.peso = peso;
         this.casado = casado;
     }
-//  GETTER AND SETTER
+
+    public Persona() {
+    }
+    //  GETTER AND SETTER
 
 //    public String getDni() {
 //        return dni;
