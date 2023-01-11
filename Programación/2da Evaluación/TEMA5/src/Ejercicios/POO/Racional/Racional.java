@@ -44,11 +44,12 @@ public class Racional {
         return this.numerador + "/" + this.denomidador;
     }
 
-    public Racional sumar(Racional r) {
-        int sumaD = (this.denomidador + r.denomidador);
+    public Racional sumar(Racional r1, Racional r2) {
+        
+        int sumaD = r1.numerador * r2.denomidador+r1.denomidador* r2.numerador;
         int sumaN = (this.numerador + r.numerador);
 
-        return simplifica(new Racional(sumaD, sumaN));
+        return simplifica(new Racional(sumaN,sumaD ));
     }
 
     public Racional resta(Racional r) {
@@ -58,14 +59,14 @@ public class Racional {
     }
 
     public Racional producto(Racional r) {
-        int productoD = (this.denomidador - r.denomidador);
-        int productoN = (this.numerador - r.numerador);
+        int productoD = (this.denomidador * r.denomidador);
+        int productoN = (this.numerador * r.numerador);
         return simplifica(new Racional(productoD, productoN));
     }
 
     public Racional dividir(Racional r) {
-        int dividirD = (this.denomidador - r.denomidador);
-        int dividirN = (this.numerador - r.numerador);
+        int dividirD = (this.denomidador / r.denomidador);
+        int dividirN = (this.numerador / r.numerador);
         return simplifica(new Racional(dividirD, dividirN));
     }
 
@@ -106,7 +107,11 @@ public class Racional {
         }
     }
 
-    private int MCD(int n1, int n2) {
+    public int MCD(int n1, int n2) {
+        
+        System.out.println(n1);
+        System.out.println(n2);
+        
         int resto;
         int aux;
         do {
@@ -123,9 +128,12 @@ public class Racional {
 
     private Racional simplifica(Racional r) {
         int mcd = MCD(Math.abs(r.numerador), Math.abs(r.denomidador));
-        int num = r.numerador / mcd;
-        int den = r.denomidador / mcd;
-        return new Racional(num, den);
+        r.numerador= r.numerador / mcd;
+         r.denomidador = r.denomidador / mcd;
+         
+         System.out.println(r.numerador);
+         System.out.println(r.denomidador);
+        return new Racional(r.numerador, r.denomidador);
     }
 
 }
