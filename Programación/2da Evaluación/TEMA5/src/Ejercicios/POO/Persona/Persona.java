@@ -5,6 +5,7 @@
 package Ejercicios.POO.Persona;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 /**
@@ -25,9 +26,8 @@ public class Persona {
     private boolean casado;
 
     //CONSTRUCTORS
-
     public Persona(String dni) {
-        this.dni = dni;
+        this.dni=dni;
     }
 
     public Persona(String nombre, String apellido, char sexo, LocalDate fechadeNacimiento, int edad, double altura, double peso, boolean casado) {
@@ -45,13 +45,10 @@ public class Persona {
     }
     //  GETTER AND SETTER
 
-//    public String getDni() {
-//        return dni;
-//    }
-//
-//    public void setDni(String dni) {
-//        this.dni = dni;
-//    }
+    public String getDni() {
+        return dni;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -64,6 +61,22 @@ public class Persona {
         return apellido;
     }
 
+    private void setDni(String Dni){
+        if (dni.length() !=8){
+            System.out.println("Error");
+        } else{
+            for (int i = 0; i < dni.length(); i++) {
+                
+                if(Character.isDigit(dni.charAt(i))){
+                    System.out.println("Error");
+                    return;
+                }
+                
+            }
+        }
+        this.dni=dni;
+    }
+    
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
@@ -77,20 +90,30 @@ public class Persona {
     }
 
     public LocalDate getFechadeNacimiento() {
+
+        DateTimeFormatter dtf = DateTimeFormatter.BASIC_ISO_DATE;
         return fechadeNacimiento;
     }
 
-    public void setFechadeNacimiento(LocalDate fechadeNacimiento) {
-        this.fechadeNacimiento = fechadeNacimiento;
+    public LocalDate setFechadeNacimiento(int dia, int mes, int año) {
+         LocalDate fechaNac = LocalDate.of(año, mes, dia);
+        LocalDate hoy = LocalDate.now();
+        int edad = hoy.getYear() - fechaNac.getYear();
+        fechaNac.getDayOfMonth();
+        fechaNac.getMonth();
+        fechaNac.getYear();
+        DateTimeFormatter dtf= DateTimeFormatter.ofPattern("dd-MMM-yyyy");
+       
+
+    
+        this.edad=edad;
+        return fechaNac;
     }
 
-//    public int getEdad() {
-//        return edad;
-//    }
-//
-//    public void setEdad(int edad) {
-//        this.edad = edad;
-//    }
+    public int getEdad() {
+        return edad;
+    }
+
     public double getAltura() {
         return altura;
     }
@@ -129,13 +152,13 @@ public class Persona {
         DNI_numero = 1;
         do {
             System.out.println("Introduce numero DNI:");
-            this.dni=dni;
+            this.dni = dni;
             DNI_numero = Integer.parseInt(dni);
             if (dni.length() > 8 || dni.length() < 8) {
 
                 System.out.println("Error. El DNI debe tener 8 dígitos");
                 System.out.print("Introduce numero DNI:");
-                dni=teclado.nextLine();
+                dni = teclado.nextLine();
             }
 
         } while (dni.length() > 8 || dni.length() < 8);
@@ -214,6 +237,15 @@ public class Persona {
         return DNI_numero;
     }
 
+    private void CalcularEdad() { //Metodo que calcula la edad de la persona en función de su fecha de nacimiento
+
+        if (fechadeNacimiento.getDayOfYear() <= LocalDate.now().getDayOfYear()) {
+            this.edad = LocalDate.now().getYear() - this.fechadeNacimiento.getYear();
+        } else {
+            this.edad = LocalDate.now().getYear() - fechadeNacimiento.getYear() - 1;
+        }
+    }
+
     // Método que determina si la persona está en su peso ideal (0,75 * (altura en cm. – 150)
     // + 50). Devuelve un -1 si está por debajo de su peso ideal, un 0 si está en su peso ideal y
     // un 1 si tiene sobrepeso.
@@ -221,19 +253,18 @@ public class Persona {
         peso = (0.75 * (this.altura - 150) + 50);
 
         if (peso == -1) {
-            System.out.println("Esta por debajo de su peso ideal");
+            return -1;
         } else if (peso == 0) {
-            System.out.println("Esta en su peso ideal");
+            return 0;
         } else if (peso == 1) {
-            System.out.println(" Usted tiene sobrepeso");
+            return 1;
         }
 
         this.peso = peso;
-        return peso;
+        return 0;
     }
-    
+
     // Método que devuelve un booleano indicando si la persona es o no mayor de edad
-    
     public boolean isMayorEdad() {
         return this.edad >= 18;
     }
