@@ -10,11 +10,11 @@ import java.util.Locale;
  *
  * @author COOLBOX_SSD5
  */
-public class Racional {
+public class Racional implements Comparable<Racional>{
 
     //ATTRIBUTES
-    private int numerador = 9;
-    private int denomidador = 5;
+    private int numerador;
+    private int denomidador;
 
     //CONSTRUCTOR
     public Racional(int numerador, int denominador) {
@@ -44,30 +44,32 @@ public class Racional {
         return this.numerador + "/" + this.denomidador;
     }
 
-    public Racional sumar(Racional r1, Racional r2) {
+    public Racional sumar(Racional r) {
         
-        int sumaD = r1.numerador * r2.denomidador+r1.denomidador* r2.numerador;
-        int sumaN = (this.numerador + r.numerador);
-
-        return simplifica(new Racional(sumaN,sumaD ));
+        int sumaNumerador = (this.numerador * r.denomidador) + (this.denomidador * r.numerador); 
+        int sumaDenominador = (this.numerador * r.denomidador) ;
+        
+        return simplifica(new Racional(sumaNumerador,sumaDenominador ));
     }
 
     public Racional resta(Racional r) {
-        int restaD = (this.denomidador - r.denomidador);
-        int restaN = (this.numerador - r.numerador);
-        return simplifica(new Racional(restaD, restaN));
+        int restaNumerador = (this.numerador * r.denomidador) - (this.denomidador * r.numerador); 
+        int restaDenominador = (this.numerador * r.denomidador) ;
+        
+        return simplifica(new Racional(restaNumerador,restaDenominador ));
     }
-
     public Racional producto(Racional r) {
-        int productoD = (this.denomidador * r.denomidador);
-        int productoN = (this.numerador * r.numerador);
-        return simplifica(new Racional(productoD, productoN));
+        int productoNumerador = (this.numerador * r.denomidador) * (this.denomidador * r.numerador); 
+        int ProductoDenominador = (this.numerador * r.denomidador) ;
+        
+        return simplifica(new Racional(productoNumerador,ProductoDenominador ));
     }
 
     public Racional dividir(Racional r) {
-        int dividirD = (this.denomidador / r.denomidador);
-        int dividirN = (this.numerador / r.numerador);
-        return simplifica(new Racional(dividirD, dividirN));
+        int divisionNumerador = (this.numerador * r.denomidador) / (this.denomidador * r.numerador); 
+        int divisionDenominador = (this.numerador * r.denomidador) ;
+        
+        return simplifica(new Racional(divisionNumerador,divisionDenominador ));
     }
 
     public double toDecimal() {
@@ -76,41 +78,28 @@ public class Racional {
         return Double.parseDouble(nf.format((double) this.numerador / (double) this.denomidador));
     }
 
-    private Racional simplificado(Racional r) {
-
-        int simplifica1 = this.numerador / r.denomidador;
-        int simplifica2 = this.numerador / r.denomidador;
-
-        int total = (numerador * this.denomidador) + (this.denomidador * numerador);
-
-        int totalDivision = (this.denomidador + r.denomidador) / total;
-        return r;
-    }
-
-    public boolean toEquals(Racional r) {
-
-        if (r.equals(r.denomidador) && (r.equals(r.numerador))) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public void compareTo(Racional r) {
-
-        if ((r.denomidador > this.denomidador) && (r.numerador > this.numerador)) {
-
-        } else if ((r.numerador < r.denomidador) && (r.denomidador > this.denomidador)) {
-
-        } else if ((r.numerador == this.numerador) && (r.denomidador == this.denomidador)) {
-
-        }
-    }
+//    public boolean toEquals(Racional r) {
+//
+//        if (r.equals(r.denomidador) && (r.equals(r.numerador))) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
+//
+//    public void compareTo(Racional r) {
+//
+//        if ((r.denomidador > this.denomidador) && (r.numerador > this.numerador)) {
+//
+//        } else if ((r.numerador < r.denomidador) && (r.denomidador > this.denomidador)) {
+//
+//        } else if ((r.numerador == this.numerador) && (r.denomidador == this.denomidador)) {
+//
+//        }
+//    }
 
     public int MCD(int n1, int n2) {
-        
-        System.out.println(n1);
-        System.out.println(n2);
+
         
         int resto;
         int aux;
@@ -130,10 +119,37 @@ public class Racional {
         int mcd = MCD(Math.abs(r.numerador), Math.abs(r.denomidador));
         r.numerador= r.numerador / mcd;
          r.denomidador = r.denomidador / mcd;
-         
-         System.out.println(r.numerador);
-         System.out.println(r.denomidador);
         return new Racional(r.numerador, r.denomidador);
     }
 
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Racional other = (Racional) obj;
+        if (this.numerador != other.numerador) {
+            return false;
+        }
+        return this.denomidador == other.denomidador;
+    }
+
+    // Establecemos orden de los objetos racionales teniendo encuenta su valor racional
+
+    @Override
+    public int compareTo(Racional o) {
+        return (int) (this.toDecimal() - o.toDecimal());
+    }
 }

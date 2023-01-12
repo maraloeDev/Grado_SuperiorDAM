@@ -1,28 +1,42 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+/** *****************************************************************************
+ * Copyright (c) EDUARDO MARTÍN-SONSECA (maraloeDev)
+ ***************************************************************************** */
 package Ejercicios.POO.Racional;
 
-/**
- *
- * @author COOLBOX_SSD5
- */
 public class RacionalApp {
 
     public static void main(String[] args) {
-        Racional racional1 = new Racional(12, 24);
-        Racional racional2 = new Racional(25,14);
+        Racional r1 = new Racional(1, 2);
+        Racional r2 = new Racional(1, 6);
 
-        System.out.println(racional1.toString());
-        
-        System.out.println("SUMA " + racional1.sumar(racional1));
-        
-        System.out.println("RESTA " + racional1.resta(racional1));
-        
-        System.out.println("MULTIPLICACIoN " + racional1.producto(racional1));
-        
-        System.out.println("DIVISION " + racional1.dividir(racional1));
+        System.out.println("FORMATO FRACCIÓN " + r1);
+
+        System.out.println("FORMATO DECIMAL " + r1.toDecimal());
+
+        System.out.println("FORMATO FRACCIÓN " + r2);
+
+        System.out.println("FORMATO DECIMAL " + r2.toDecimal());
+
+        System.out.println("SUMA " + r1.sumar(r2));
+
+        System.out.println("RESTA " + r1.resta(r2));
+
+        System.out.println("MULTIPLICACION " + r1.producto(r2));
+
+        System.out.println("DIVISION " + r1.dividir(r2));
+
+        System.out.println("COMPARACIONES " + r1.equals(r2));
+
+        Racional r3 = new Racional(1,2);
+
+        System.out.println("Probamos el orden de los objetos racional");
+
+        System.out.println(r2.compareTo(r1));
+
+        System.out.println(r1.compareTo(r2));
+
+        System.out.println(r3.compareTo(r1));
+
 
     }
 
